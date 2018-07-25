@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 18.2.4.v20180102-2053_46?>
+<!--Topaz for Total Test 18.2.4.v20180102-2053_46 Feb 12, 2018 5:46:11 PM-->
+<testsuites>
+  <testsuite errors="0" failures="0" name="Project: 'Demo_2018_08_1' Scenario: 'CWBWCOBX_Scenario' Testcase: 'CWBWCOBXCase1'" tests="6">
+    <testcase classname="Project: 'Demo_2018_08_1' Scenario: 'CWBWCOBX_Scenario' Testcase: 'CWBWCOBXCase1'" name="Check for PARM_LTH"/>
+    <testcase classname="Project: 'Demo_2018_08_1' Scenario: 'CWBWCOBX_Scenario' Testcase: 'CWBWCOBXCase1'" name="Check for PARM_DATA"/>
+    <testcase classname="Project: 'Demo_2018_08_1' Scenario: 'CWBWCOBX_Scenario' Testcase: 'CWBWCOBXCase1'" name="Check for FILLER0"/>
+    <testcase classname="Project: 'Demo_2018_08_1' Scenario: 'CWBWCOBX_Scenario' Testcase: 'CWBWCOBXCase1'" name="Check for RUN_DATE"/>
+    <testcase classname="Project: 'Demo_2018_08_1' Scenario: 'CWBWCOBX_Scenario' Testcase: 'CWBWCOBXCase1'" name="Check for GRAND_TOTAL"/>
+    <testcase classname="Project: 'Demo_2018_08_1' Scenario: 'CWBWCOBX_Scenario' Testcase: 'CWBWCOBXCase1'" name="Check for TOTAL_RECORD"/>
+  </testsuite>
+</testsuites>
