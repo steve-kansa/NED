@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?totaltestVersion 18.2.4.v20180102-2053_46?>
-<!--Topaz for Total Test 18.2.4.v20180102-2053_46 Feb 12, 2018 5:46:11 PM-->
+<?totaltestVersion 19.1.2.v20180712-0806_18?>
+<!--Topaz for Total Test 19.1.2.v20180712-0806_18 Jul 26, 2018 12:14:56 PM-->
 <testsuites>
-  <testsuite errors="0" failures="0" name="Project: 'Demo_2018_08_1' Scenario: 'CWBWCOBX_Scenario' Testcase: 'CWBWCOBXCase1'" tests="6">
-    <testcase classname="Project: 'Demo_2018_08_1' Scenario: 'CWBWCOBX_Scenario' Testcase: 'CWBWCOBXCase1'" name="Check for PARM_LTH"/>
-    <testcase classname="Project: 'Demo_2018_08_1' Scenario: 'CWBWCOBX_Scenario' Testcase: 'CWBWCOBXCase1'" name="Check for PARM_DATA"/>
-    <testcase classname="Project: 'Demo_2018_08_1' Scenario: 'CWBWCOBX_Scenario' Testcase: 'CWBWCOBXCase1'" name="Check for FILLER0"/>
-    <testcase classname="Project: 'Demo_2018_08_1' Scenario: 'CWBWCOBX_Scenario' Testcase: 'CWBWCOBXCase1'" name="Check for RUN_DATE"/>
-    <testcase classname="Project: 'Demo_2018_08_1' Scenario: 'CWBWCOBX_Scenario' Testcase: 'CWBWCOBXCase1'" name="Check for GRAND_TOTAL"/>
-    <testcase classname="Project: 'Demo_2018_08_1' Scenario: 'CWBWCOBX_Scenario' Testcase: 'CWBWCOBXCase1'" name="Check for TOTAL_RECORD"/>
+  <testsuite errors="0" failures="0" name="CWBWCOBX_Unit_Tests.CWBWCOBX_Scenario.00001: CWBWCOBXCase1" tests="6">
+    <testcase classname="CWBWCOBX_Unit_Tests.CWBWCOBX_Scenario.00001: CWBWCOBXCase1" name="00001: Check for PARM_LTH"/>
+    <testcase classname="CWBWCOBX_Unit_Tests.CWBWCOBX_Scenario.00001: CWBWCOBXCase1" name="00002: Check for PARM_DATA"/>
+    <testcase classname="CWBWCOBX_Unit_Tests.CWBWCOBX_Scenario.00001: CWBWCOBXCase1" name="00003: Check for FILLER0"/>
+    <testcase classname="CWBWCOBX_Unit_Tests.CWBWCOBX_Scenario.00001: CWBWCOBXCase1" name="00004: Check for RUN_DATE"/>
+    <testcase classname="CWBWCOBX_Unit_Tests.CWBWCOBX_Scenario.00001: CWBWCOBXCase1" name="00005: Check for GRAND_TOTAL"/>
+    <testcase classname="CWBWCOBX_Unit_Tests.CWBWCOBX_Scenario.00001: CWBWCOBXCase1" name="00006: Check for TOTAL_RECORD"/>
   </testsuite>
 </testsuites>

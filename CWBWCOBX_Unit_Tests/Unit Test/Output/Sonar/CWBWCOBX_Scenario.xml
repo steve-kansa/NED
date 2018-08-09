@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?totaltestVersion 18.2.4.v20180102-2053_46?>
-<!--Topaz for Total Test 18.2.4.v20180102-2053_46 Feb 12, 2018 5:46:11 PM-->
+<?totaltestVersion 19.1.2.v20180712-0806_18?>
+<!--Topaz for Total Test 19.1.2.v20180712-0806_18 Jul 26, 2018 12:14:56 PM-->
 <testExecutions version="1">
-  <file path="C:\Users\pfhsxk0\Compuware\Workbench\1824\Demo_2018_08_1\Unit Test\Scenarios\CWBWCOBX_Scenario.testscenario">
-    <testCase duration="0" name="Project: 'Demo_2018_08_1' Scenario: 'CWBWCOBX_Scenario' Testcase: 'CWBWCOBXCase1' Test: Check for PARM_LTH'"/>
-    <testCase duration="0" name="Project: 'Demo_2018_08_1' Scenario: 'CWBWCOBX_Scenario' Testcase: 'CWBWCOBXCase1' Test: Check for PARM_DATA'"/>
-    <testCase duration="0" name="Project: 'Demo_2018_08_1' Scenario: 'CWBWCOBX_Scenario' Testcase: 'CWBWCOBXCase1' Test: Check for FILLER0'"/>
-    <testCase duration="0" name="Project: 'Demo_2018_08_1' Scenario: 'CWBWCOBX_Scenario' Testcase: 'CWBWCOBXCase1' Test: Check for RUN_DATE'"/>
-    <testCase duration="0" name="Project: 'Demo_2018_08_1' Scenario: 'CWBWCOBX_Scenario' Testcase: 'CWBWCOBXCase1' Test: Check for GRAND_TOTAL'"/>
-    <testCase duration="0" name="Project: 'Demo_2018_08_1' Scenario: 'CWBWCOBX_Scenario' Testcase: 'CWBWCOBXCase1' Test: Check for TOTAL_RECORD'"/>
+  <file path="C:\Users\pfhsxk0\git\FTSDEMO_SXK1_Unit_Tests\CWBWCOBX_Unit_Tests\Unit Test\Scenarios\CWBWCOBX_Scenario.testscenario">
+    <testCase duration="0" name="CWBWCOBX_Unit_Tests.CWBWCOBX_Scenario.00001: CWBWCOBXCase1.00001: Check for PARM_LTH"/>
+    <testCase duration="0" name="CWBWCOBX_Unit_Tests.CWBWCOBX_Scenario.00001: CWBWCOBXCase1.00002: Check for PARM_DATA"/>
+    <testCase duration="0" name="CWBWCOBX_Unit_Tests.CWBWCOBX_Scenario.00001: CWBWCOBXCase1.00003: Check for FILLER0"/>
+    <testCase duration="0" name="CWBWCOBX_Unit_Tests.CWBWCOBX_Scenario.00001: CWBWCOBXCase1.00004: Check for RUN_DATE"/>
+    <testCase duration="0" name="CWBWCOBX_Unit_Tests.CWBWCOBX_Scenario.00001: CWBWCOBXCase1.00005: Check for GRAND_TOTAL"/>
+    <testCase duration="0" name="CWBWCOBX_Unit_Tests.CWBWCOBX_Scenario.00001: CWBWCOBXCase1.00006: Check for TOTAL_RECORD"/>
   </file>
 </testExecutions>

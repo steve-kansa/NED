@@ -93,6 +93,13 @@
 			background: #a6caf0;
 			padding: 2px 4px 2px 4px;
 		}
+		.pg-normalred {
+			color: red;
+			font-size: 15px;
+			cursor: pointer;
+			background: #a6caf0;
+			padding: 2px 4px 2px 4px;
+		}
 		
 		.pg-selected {
 			color: #fff;
@@ -175,7 +182,7 @@
       </script>
 	  <script type="text/javascript">
 		
-		function Pager(tableName, itemsPerPage, name) {
+		function Pager(tableName, itemsPerPage, name, errPagesAry) {
 		
 		this.tableName = tableName;
 		
@@ -188,6 +195,8 @@
 		this.pages = 0;
 		
 		this.inited = false;
+		
+		this.errorPagesAry = errPagesAry;
 		
 		this.showRecords = function(from, to) {
 		
@@ -226,9 +235,13 @@
 			}
 			
 			var oldPageAnchor = document.getElementById('pg'+ this.pagerName + this.currentPage);
-			
+						
 			if ( oldPageAnchor != null ) {
+                           if (this.errorPagesAry instanceof Array && this.errorPagesAry.length > 0 && this.errorPagesAry.indexOf(this.currentPage) >= 0) {
+                                oldPageAnchor.className = 'pg-normalred';                           
+                           } else {
 				oldPageAnchor.className = 'pg-normal';
+                           }
 			}
 			
 			this.currentPage = pageNumber;
@@ -286,14 +299,18 @@
 		return;
 		
 		}
-		
+		//alert(this.errorPagesAry);
 		var element = document.getElementById(positionId);
 		
 		var pagerHtml = '<span id="pg' + this.pagerName + 'prev" onclick="' + pagerName + '.prev();" class="pg-normal"> Prev </span> &nbsp;';
 		
-		for (var page = 1; page <= this.pages; page++)
-		
-		pagerHtml += '<span id="pg' + this.pagerName + page + '" class="pg-normal" onclick="' + pagerName + '.showPage(' + page + ');">' + page + '</span> ';
+		for (var page = 1; page <= this.pages; page++) {
+		   if (this.errorPagesAry instanceof Array && this.errorPagesAry.length > 0 && this.errorPagesAry.indexOf(page) >= 0) {
+		   		pagerHtml += '<span id="pg' + this.pagerName + page + '" class="pg-normalred" onclick="' + pagerName + '.showPage(' + page + ');">' + page + '</span> ';
+		   } else {
+		    	pagerHtml += '<span id="pg' + this.pagerName + page + '" class="pg-normal" onclick="' + pagerName + '.showPage(' + page + ');">' + page + '</span> ';
+		   }
+		}
 		
 		pagerHtml += '<span id="pg' + this.pagerName + 'next" onclick="'+pagerName+'.next();" class="pg-normal"> Next </span>';
 		
@@ -348,7 +365,7 @@
 		        <td align="left">
 		        <h1> CWBWCOBX_Scenario Result Report</h1>
 		        <p class="note">
-		        Failures are anticipated and checked for in check conditions <br />Errors are unanticipated problems
+		        Failures are anticipated and checked for in assertions <br />Errors are unanticipated problems
 		        </p>
 		        </td>
 		        <td align="right"></td>
@@ -356,7 +373,7 @@
     	</table>
     	<hr size="1"/>
 		<!-- Summary part -->			
-		<h2>Test Project Demo_2018_08_1 </h2>
+		<h2>Test Project CWBWCOBX_Unit_Tests </h2>
         <h2>Test Suite Summary</h2>
         <p>
 	    <b></b>
@@ -374,13 +391,13 @@
             <th>System</th>
         </tr>
         <tr valign="top">
-            <td nowrap="nowrap"><a href="#{testsuite:Unit%20Test%5C.temp/CWBWCOBX_Scenario.testsuite}">CWBWCOBX_Scenario</a></td>
+            <td nowrap="nowrap"><a href="#{testscenario:Unit%20Test/Scenarios/CWBWCOBX_Scenario.testscenario}">CWBWCOBX_Scenario</a></td>
             <td class="summary">6</td>
             <td class="summary">0</td>
             <td class="summary">0</td> 		
 			<td class="summary"><span class="success100">100%</span></td>        		  
-            <td>2018-02-12 17:57:30</td>
-		    <td>PFHSXK0X(J0524158)</td> 
+            <td>2018-07-26 12:38:06</td>
+		    <td>PFHSXK0X(J0601633)</td> 
 		    <td>CWCC LPAR</td>  
         </tr>
         </table>
@@ -405,7 +422,7 @@
             <!-- list all packages recursively -->
                 <!-- write a summary for the package -->
 				<tr valign="top"> 
-                    <td><a href="#{testscenario:Unit%20Test/Scenarios/CWBWCOBX_Scenario.testscenario}">CWBWCOBX_Scenario</a></td>
+                    <td><a href="#{testscenario:Unit%20Test/Scenarios/CWBWCOBX_Scenario.testscenario}">CWBWCOBX_Scenario&nbsp;<img border="0" src="data:image/gif;base64,R0lGODlhEAAQAPcAAAAAAFlXUX58dHh4g3x+h4liX4CCjISGkYqNl5SOhJeVjZiVjZKWn56ak4+appOeqpqgqqGHh6WinKSqs6iuuKSxvKqyvKq0vLCso7mworyysq62wKu5wq+6wrG6w7W9x7W/yLnCzLvEzrvGzrzFzbzG0L/L0cCypsPBrc3Ds8zKt9bUvdvVs9vZvuDdt+PguMDJ0MTP1cfQ1sjR2M3W3NDPydbWx9Pc4d/l6enu8O7y9PH09vX29/j5+v3+/gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAP8ALAAAAAAQABAAAAjDAP8JHEiwoMASIkKE+PDBg4cNFixQ+Kchwj8RPjJq7NGDx44JNQoU+BdCY0aOHnXYeHFCw78PJlHuUOkiRQ2BHjLKkAGDBIgOKlxkkDBww0kePHToWCF0AUELHHv+bNGUAUEKHWfmaMEiQ4MbCK7u2PETxQuvN2iEHThBaQ4JARIoSBvjAEEIOXJcEBCgwQMHMUwYuJsDBw4MEmjMiDECBAGCDAzfmLy4MYfHAyNPphHYcoUBBBGIPnDAgAECBAaoHhgQADs= alt="Open in Editor" /></a></td>
                     <td>6</td>
                     <td>0</td>
                     <td>0</td> 		
@@ -433,7 +450,7 @@
 				<tr valign="top"> 
 		
 		        <!-- print testcase information -->
-		        <td><a href="#{testscenario:Unit%20Test/Scenarios/CWBWCOBX_Scenario.testscenario}{testcase:Unit%20Test/Scenarios/CWBWCOBX_Scenario.testscenario%23CWBWCOBXCase1}">CWBWCOBXCase1</a></td>
+		        <td><a href="#{testscenario:Unit%20Test/Scenarios/CWBWCOBX_Scenario.testscenario}{testcase:Unit%20Test/Scenarios/CWBWCOBX_Scenario.testscenario%23CWBWCOBXCase1}">CWBWCOBXCase1&nbsp;<img border="0" src="data:image/gif;base64,R0lGODlhEAAQAPcAAAAAAFlXUX58dHh4g3x+h4liX4CCjISGkYqNl5SOhJeVjZiVjZKWn56ak4+appOeqpqgqqGHh6WinKSqs6iuuKSxvKqyvKq0vLCso7mworyysq62wKu5wq+6wrG6w7W9x7W/yLnCzLvEzrvGzrzFzbzG0L/L0cCypsPBrc3Ds8zKt9bUvdvVs9vZvuDdt+PguMDJ0MTP1cfQ1sjR2M3W3NDPydbWx9Pc4d/l6enu8O7y9PH09vX29/j5+v3+/gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAP8ALAAAAAAQABAAAAjDAP8JHEiwoMASIkKE+PDBg4cNFixQ+Kchwj8RPjJq7NGDx44JNQoU+BdCY0aOHnXYeHFCw78PJlHuUOkiRQ2BHjLKkAGDBIgOKlxkkDBww0kePHToWCF0AUELHHv+bNGUAUEKHWfmaMEiQ4MbCK7u2PETxQuvN2iEHThBaQ4JARIoSBvjAEEIOXJcEBCgwQMHMUwYuJsDBw4MEmjMiDECBAGCDAzfmLy4MYfHAyNPphHYcoUBBBGIPnDAgAECBAaoHhgQADs= alt="Open in Editor" /></a></td>
 		        <td>6</td>
                 <td>0</td>
                 <td>0</td> 		
@@ -441,13 +458,14 @@
 		    </tr>
         </table>
         <a href="#top" class="top">^ Back to top</a></div>
-  
+    
+     
     <h5 style="margin-left: 20px;">CWBWCOBXCase1 Test Case Details</h5>
 	
 			<h6 style="margin-left: 20px;">Output Assertion</h6>
 			<table class="details" border="0" cellpadding="5" cellspacing="2" width="90%" style="margin-left: 20px;">
 			<tr valign="top">
-			    <th>Check Condition</th>
+			    <th>Assertion</th>
 			    <th>Status</th>
 			    <th width="30%">Message</th>
 			    <th width="18%">Expected</th>
