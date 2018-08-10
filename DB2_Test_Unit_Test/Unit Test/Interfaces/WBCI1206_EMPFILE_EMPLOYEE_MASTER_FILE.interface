@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 19.2.1.v20180806-1309_669?>
+<!--Topaz for Total Test 19.2.1.v20180806-1309_669 Aug 9, 2018 1:57:31 PM-->
+<interface:interface xmlns:interface="http://www.compuware.com/model/xml/interface" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" alias="" id="Unit%20Test/Interfaces/WBCI1206_EMPFILE_EMPLOYEE_MASTER_FILE.interface" iotype="Keyed - (KSDS)">
+  <interface:description></interface:description>
+  <interface:argument listructure="../Structures/WBCI1206_EMPFILE_EMPLOYEE-MASTER-FILE.listructure#Unit%20Test/Structures/WBCI1206_EMPFILE_EMPLOYEE-MASTER-FILE.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/WBCI1206_EMPFILE_EMPLOYEE-MASTER-FILE.listructure#EMPLOYEE_MASTER_FILE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+        <properties:property name="position">0</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/WBCI1206_EMPFILE_EMPLOYEE-MASTER-FILE.listructure#EMPLOYEE_MASTER_FILE.EMP_NUMBER">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+        <properties:property name="position">0</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/WBCI1206_EMPFILE_EMPLOYEE-MASTER-FILE.listructure#EMPLOYEE_MASTER_FILE.EMP_LAST_NAME">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+        <properties:property name="position">5</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/WBCI1206_EMPFILE_EMPLOYEE-MASTER-FILE.listructure#EMPLOYEE_MASTER_FILE.EMP_FIRST_NAME">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+        <properties:property name="position">20</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/WBCI1206_EMPFILE_EMPLOYEE-MASTER-FILE.listructure#EMPLOYEE_MASTER_FILE.EMP_MID_INIT">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+        <properties:property name="position">30</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/WBCI1206_EMPFILE_EMPLOYEE-MASTER-FILE.listructure#EMPLOYEE_MASTER_FILE.FILLER0">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+        <properties:property name="position">31</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/WBCI1206_EMPFILE_EMPLOYEE-MASTER-FILE.listructure#EMPLOYEE_MASTER_FILE.EMP_TITLE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+        <properties:property name="position">33</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/WBCI1206_EMPFILE_EMPLOYEE-MASTER-FILE.listructure#EMPLOYEE_MASTER_FILE.EMP_PERSONAL_INFO">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+        <properties:property name="position">63</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/WBCI1206_EMPFILE_EMPLOYEE-MASTER-FILE.listructure#EMPLOYEE_MASTER_FILE.EMP_PERSONAL_INFO.EMP_NATL_ID_NUMBER">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+        <properties:property name="position">63</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/WBCI1206_EMPFILE_EMPLOYEE-MASTER-FILE.listructure#EMPLOYEE_MASTER_FILE.EMP_PERSONAL_INFO.FILLER1">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+        <properties:property name="position">72</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/WBCI1206_EMPFILE_EMPLOYEE-MASTER-FILE.listructure#EMPLOYEE_MASTER_FILE.EMP_PERSONAL_INFO.EMP_DATE_OF_BIRTH">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+        <properties:property name="position">73</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/WBCI1206_EMPFILE_EMPLOYEE-MASTER-FILE.listructure#EMPLOYEE_MASTER_FILE.EMP_PERSONAL_INFO.EMP_DOB_REDEF">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+        <properties:property name="position">73</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/WBCI1206_EMPFILE_EMPLOYEE-MASTER-FILE.listructure#EMPLOYEE_MASTER_FILE.EMP_PERSONAL_INFO.EMP_DOB_REDEF.EMP_DOB_MM">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+        <properties:property name="position">73</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/WBCI1206_EMPFILE_EMPLOYEE-MASTER-FILE.listructure#EMPLOYEE_MASTER_FILE.EMP_PERSONAL_INFO.EMP_DOB_REDEF.EMP_DOB_DD">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+        <properties:property name="position">75</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/WBCI1206_EMPFILE_EMPLOYEE-MASTER-FILE.listructure#EMPLOYEE_MASTER_FILE.EMP_PERSONAL_INFO.EMP_DOB_REDEF.EMP_DOB_YY">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+        <properties:property name="position">77</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/WBCI1206_EMPFILE_EMPLOYEE-MASTER-FILE.listructure#EMPLOYEE_MASTER_FILE.EMP_PERSONAL_INFO.EMP_HIRE_DATE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+        <properties:property name="position">79</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/WBCI1206_EMPFILE_EMPLOYEE-MASTER-FILE.listructure#EMPLOYEE_MASTER_FILE.EMP_PERSONAL_INFO.EMP_MARITAL_STATUS">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+        <properties:property name="position">85</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/WBCI1206_EMPFILE_EMPLOYEE-MASTER-FILE.listructure#EMPLOYEE_MASTER_FILE.EMP_WITHOLD_INFO">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+        <properties:property name="position">86</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/WBCI1206_EMPFILE_EMPLOYEE-MASTER-FILE.listructure#EMPLOYEE_MASTER_FILE.EMP_WITHOLD_INFO.EMP_LIFE_INS_WITHOLD_AMT">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+        <properties:property name="position">86</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/WBCI1206_EMPFILE_EMPLOYEE-MASTER-FILE.listructure#EMPLOYEE_MASTER_FILE.EMP_WITHOLD_INFO.EMP_NATL_TAX_WITHOLD_PCT">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+        <properties:property name="position">92</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/WBCI1206_EMPFILE_EMPLOYEE-MASTER-FILE.listructure#EMPLOYEE_MASTER_FILE.EMP_WITHOLD_INFO.EMP_REGION_TAX_WITHOLD_PCT">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+        <properties:property name="position">95</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/WBCI1206_EMPFILE_EMPLOYEE-MASTER-FILE.listructure#EMPLOYEE_MASTER_FILE.EMP_WITHOLD_INFO.EMP_LOCAL_TAX_WITHOLD_PCT">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+        <properties:property name="position">98</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/WBCI1206_EMPFILE_EMPLOYEE-MASTER-FILE.listructure#EMPLOYEE_MASTER_FILE.EMP_HOME_ADDRESS">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+        <properties:property name="position">101</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/WBCI1206_EMPFILE_EMPLOYEE-MASTER-FILE.listructure#EMPLOYEE_MASTER_FILE.EMP_HOME_ADDRESS.EMP_STREET_ADDRESS">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+        <properties:property name="position">101</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/WBCI1206_EMPFILE_EMPLOYEE-MASTER-FILE.listructure#EMPLOYEE_MASTER_FILE.EMP_HOME_ADDRESS.FILLER2">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+        <properties:property name="position">126</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/WBCI1206_EMPFILE_EMPLOYEE-MASTER-FILE.listructure#EMPLOYEE_MASTER_FILE.EMP_HOME_ADDRESS.EMP_CITY">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+        <properties:property name="position">127</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/WBCI1206_EMPFILE_EMPLOYEE-MASTER-FILE.listructure#EMPLOYEE_MASTER_FILE.EMP_HOME_ADDRESS.EMP_STATE_PROV_CNTY">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+        <properties:property name="position">142</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/WBCI1206_EMPFILE_EMPLOYEE-MASTER-FILE.listructure#EMPLOYEE_MASTER_FILE.EMP_HOME_ADDRESS.EMP_STATE_PROV_CNTY.EMP_STATE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+        <properties:property name="position">142</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/WBCI1206_EMPFILE_EMPLOYEE-MASTER-FILE.listructure#EMPLOYEE_MASTER_FILE.EMP_HOME_ADDRESS.EMP_STATE_PROV_CNTY.FILLER3">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+        <properties:property name="position">144</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/WBCI1206_EMPFILE_EMPLOYEE-MASTER-FILE.listructure#EMPLOYEE_MASTER_FILE.EMP_HOME_ADDRESS.EMP_POSTAL_CODE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+        <properties:property name="position">146</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/WBCI1206_EMPFILE_EMPLOYEE-MASTER-FILE.listructure#EMPLOYEE_MASTER_FILE.EMP_EMERGENCY_CONTACT">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+        <properties:property name="position">151</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/WBCI1206_EMPFILE_EMPLOYEE-MASTER-FILE.listructure#EMPLOYEE_MASTER_FILE.EMP_EMERGENCY_CONTACT.EMP_CONTACT_NAME">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+        <properties:property name="position">151</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/WBCI1206_EMPFILE_EMPLOYEE-MASTER-FILE.listructure#EMPLOYEE_MASTER_FILE.EMP_EMERGENCY_CONTACT.FILLER4">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+        <properties:property name="position">176</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/WBCI1206_EMPFILE_EMPLOYEE-MASTER-FILE.listructure#EMPLOYEE_MASTER_FILE.EMP_EMERGENCY_CONTACT.EMP_CON_WORK_PHONE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+        <properties:property name="position">178</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/WBCI1206_EMPFILE_EMPLOYEE-MASTER-FILE.listructure#EMPLOYEE_MASTER_FILE.EMP_EMERGENCY_CONTACT.EMP_CON_HOME_PHONE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+        <properties:property name="position">188</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:key length="5" position="0">
+    <interface:properties>
+      <properties:property name="id" type="string">EMPLOYEE_MASTER_FILE.EMP_NUMBER</properties:property>
+    </interface:properties>
+  </interface:key>
+</interface:interface>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 19.2.1.v20180806-1309_669?>
+<!--Topaz for Total Test 19.2.1.v20180806-1309_669 Aug 9, 2018 1:57:38 PM-->
+<listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="Unit%20Test/Structures/WBCI1206_WBCI0040_WS-SALES-RECORD.listructure">
+  <listructure:struct id="WS_SALES_RECORD" name="WS_SALES_RECORD">
+    <properties:properties>
+      <properties:property name="storageLength" type="number">60</properties:property>
+      <properties:property name="displayLength" type="number">60</properties:property>
+      <properties:property name="platform" type="string">mainframe</properties:property>
+    </properties:properties>
+    <listructure:string id="WS_SALES_RECORD.WS_SALES_RECORD" length="60" name="WS_SALES_RECORD">
+      <properties:properties>
+        <properties:property name="picture" type="string">X(60)</properties:property>
+        <properties:property name="storageLength" type="number">60</properties:property>
+        <properties:property name="displayLength" type="number">60</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(60)</properties:property>
+      </properties:properties>
+    </listructure:string>
+  </listructure:struct>
+</listructure:listructure>

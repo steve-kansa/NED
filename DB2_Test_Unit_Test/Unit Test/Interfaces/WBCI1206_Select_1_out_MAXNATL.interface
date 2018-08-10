@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 19.2.1.v20180806-1309_669?>
+<!--Topaz for Total Test 19.2.1.v20180806-1309_669 Aug 9, 2018 1:57:33 PM-->
+<interface:interface xmlns:interface="http://www.compuware.com/model/xml/interface" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" alias="" id="Unit%20Test/Interfaces/WBCI1206_Select_1_out_MAXNATL.interface">
+  <interface:description></interface:description>
+  <interface:argument listructure="../Structures/Db2/WBCI1206/WBCI1206_Select_LASTNAME.listructure#Unit%20Test/Structures/Db2/WBCI1206/WBCI1206_Select_LASTNAME.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/WBCI1206/WBCI1206_Select_LASTNAME.listructure#LASTNAME">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/WBCI1206/WBCI1206_Select_LASTNAME.listructure#LASTNAME.LASTNAME">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/Db2/WBCI1206/WBCI1206_Select_YTDSAL.listructure#Unit%20Test/Structures/Db2/WBCI1206/WBCI1206_Select_YTDSAL.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/WBCI1206/WBCI1206_Select_YTDSAL.listructure#YTDSAL">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/Db2/WBCI1206/WBCI1206_Select_YTDSAL.listructure#YTDSAL.YTDSAL">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/Db2/WBCI1206/WBCI1206_Select_MAXNATL.listructure#Unit%20Test/Structures/Db2/WBCI1206/WBCI1206_Select_MAXNATL.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/WBCI1206/WBCI1206_Select_MAXNATL.listructure#MAXNATL">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/Db2/WBCI1206/WBCI1206_Select_MAXNATL.listructure#MAXNATL.MAXNATL">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+</interface:interface>

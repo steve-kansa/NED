@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 19.2.1.v20180806-1309_669?>
+<!--Topaz for Total Test 19.2.1.v20180806-1309_669 Aug 9, 2018 1:57:31 PM-->
+<listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="Unit%20Test/Structures/WBCI1206_EMPFILE_EMPLOYEE-MASTER-FILE.listructure">
+  <listructure:struct id="EMPLOYEE_MASTER_FILE" name="EMPLOYEE_MASTER_FILE">
+    <properties:properties>
+      <properties:property name="storageLength" type="number">198</properties:property>
+      <properties:property name="displayLength" type="number">198</properties:property>
+      <properties:property name="platform" type="string">mainframe</properties:property>
+    </properties:properties>
+    <listructure:string id="EMPLOYEE_MASTER_FILE.EMP_NUMBER" length="5" name="EMP_NUMBER">
+      <properties:properties>
+        <properties:property name="picture" type="string">X(5)</properties:property>
+        <properties:property name="storageLength" type="number">5</properties:property>
+        <properties:property name="displayLength" type="number">5</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(5)</properties:property>
+      </properties:properties>
+    </listructure:string>
+    <listructure:string id="EMPLOYEE_MASTER_FILE.EMP_LAST_NAME" length="15" name="EMP_LAST_NAME">
+      <properties:properties>
+        <properties:property name="picture" type="string">X(15)</properties:property>
+        <properties:property name="storageLength" type="number">15</properties:property>
+        <properties:property name="displayLength" type="number">15</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(15)</properties:property>
+      </properties:properties>
+    </listructure:string>
+    <listructure:string id="EMPLOYEE_MASTER_FILE.EMP_FIRST_NAME" length="10" name="EMP_FIRST_NAME">
+      <properties:properties>
+        <properties:property name="picture" type="string">X(10)</properties:property>
+        <properties:property name="storageLength" type="number">10</properties:property>
+        <properties:property name="displayLength" type="number">10</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(10)</properties:property>
+      </properties:properties>
+    </listructure:string>
+    <listructure:string id="EMPLOYEE_MASTER_FILE.EMP_MID_INIT" length="1" name="EMP_MID_INIT">
+      <properties:properties>
+        <properties:property name="picture" type="string">X</properties:property>
+        <properties:property name="storageLength" type="number">1</properties:property>
+        <properties:property name="displayLength" type="number">1</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X</properties:property>
+      </properties:properties>
+    </listructure:string>
+    <listructure:string id="EMPLOYEE_MASTER_FILE.FILLER0" length="2" name="FILLER0">
+      <properties:properties>
+        <properties:property name="filler" type="boolean">true</properties:property>
+        <properties:property name="picture" type="string">X(2)</properties:property>
+        <properties:property name="storageLength" type="number">2</properties:property>
+        <properties:property name="displayLength" type="number">2</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(2)</properties:property>
+      </properties:properties>
+    </listructure:string>
+    <listructure:string id="EMPLOYEE_MASTER_FILE.EMP_TITLE" length="30" name="EMP_TITLE">
+      <properties:properties>
+        <properties:property name="picture" type="string">X(30)</properties:property>
+        <properties:property name="storageLength" type="number">30</properties:property>
+        <properties:property name="displayLength" type="number">30</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(30)</properties:property>
+      </properties:properties>
+    </listructure:string>
+    <listructure:struct id="EMPLOYEE_MASTER_FILE.EMP_PERSONAL_INFO" name="EMP_PERSONAL_INFO">
+      <properties:properties>
+        <properties:property name="storageLength" type="number">23</properties:property>
+        <properties:property name="displayLength" type="number">23</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+      </properties:properties>
+      <listructure:number id="EMPLOYEE_MASTER_FILE.EMP_PERSONAL_INFO.EMP_NATL_ID_NUMBER" length="9" name="EMP_NATL_ID_NUMBER">
+        <properties:properties>
+          <properties:property name="picture" type="string">9(9)</properties:property>
+          <properties:property name="storageLength" type="number">9</properties:property>
+          <properties:property name="displayLength" type="number">9</properties:property>
+          <properties:property name="integerDigits" type="number">9</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">zoned</properties:property>
+          <properties:property name="mask" type="string">9(9)</properties:property>
+        </properties:properties>
+      </listructure:number>
+      <listructure:string id="EMPLOYEE_MASTER_FILE.EMP_PERSONAL_INFO.FILLER1" length="1" name="FILLER1">
+        <properties:properties>
+          <properties:property name="filler" type="boolean">true</properties:property>
+          <properties:property name="picture" type="string">X(01)</properties:property>
+          <properties:property name="storageLength" type="number">1</properties:property>
+          <properties:property name="displayLength" type="number">1</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(01)</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:string id="EMPLOYEE_MASTER_FILE.EMP_PERSONAL_INFO.EMP_DATE_OF_BIRTH" length="6" name="EMP_DATE_OF_BIRTH">
+        <properties:properties>
+          <properties:property name="picture" type="string">X(6)</properties:property>
+          <properties:property name="redefined" type="boolean">true</properties:property>
+          <properties:property name="storageLength" type="number">6</properties:property>
+          <properties:property name="displayLength" type="number">6</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(6)</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:struct id="EMPLOYEE_MASTER_FILE.EMP_PERSONAL_INFO.EMP_DOB_REDEF" name="EMP_DOB_REDEF">
+        <properties:properties>
+          <properties:property name="redefines" type="string">EMP_DATE_OF_BIRTH</properties:property>
+          <properties:property name="storageLength" type="number">6</properties:property>
+          <properties:property name="displayLength" type="number">6</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+        </properties:properties>
+        <listructure:number id="EMPLOYEE_MASTER_FILE.EMP_PERSONAL_INFO.EMP_DOB_REDEF.EMP_DOB_MM" length="2" name="EMP_DOB_MM">
+          <properties:properties>
+            <properties:property name="picture" type="string">99</properties:property>
+            <properties:property name="storageLength" type="number">2</properties:property>
+            <properties:property name="displayLength" type="number">2</properties:property>
+            <properties:property name="integerDigits" type="number">2</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">zoned</properties:property>
+            <properties:property name="mask" type="string">99</properties:property>
+          </properties:properties>
+        </listructure:number>
+        <listructure:number id="EMPLOYEE_MASTER_FILE.EMP_PERSONAL_INFO.EMP_DOB_REDEF.EMP_DOB_DD" length="2" name="EMP_DOB_DD">
+          <properties:properties>
+            <properties:property name="picture" type="string">99</properties:property>
+            <properties:property name="storageLength" type="number">2</properties:property>
+            <properties:property name="displayLength" type="number">2</properties:property>
+            <properties:property name="integerDigits" type="number">2</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">zoned</properties:property>
+            <properties:property name="mask" type="string">99</properties:property>
+          </properties:properties>
+        </listructure:number>
+        <listructure:number id="EMPLOYEE_MASTER_FILE.EMP_PERSONAL_INFO.EMP_DOB_REDEF.EMP_DOB_YY" length="2" name="EMP_DOB_YY">
+          <properties:properties>
+            <properties:property name="picture" type="string">99</properties:property>
+            <properties:property name="storageLength" type="number">2</properties:property>
+            <properties:property name="displayLength" type="number">2</properties:property>
+            <properties:property name="integerDigits" type="number">2</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">zoned</properties:property>
+            <properties:property name="mask" type="string">99</properties:property>
+          </properties:properties>
+        </listructure:number>
+      </listructure:struct>
+      <listructure:string id="EMPLOYEE_MASTER_FILE.EMP_PERSONAL_INFO.EMP_HIRE_DATE" length="6" name="EMP_HIRE_DATE">
+        <properties:properties>
+          <properties:property name="picture" type="string">X(6)</properties:property>
+          <properties:property name="storageLength" type="number">6</properties:property>
+          <properties:property name="displayLength" type="number">6</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(6)</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:string id="EMPLOYEE_MASTER_FILE.EMP_PERSONAL_INFO.EMP_MARITAL_STATUS" length="1" name="EMP_MARITAL_STATUS">
+        <properties:properties>
+          <properties:property name="picture" type="string">X</properties:property>
+          <properties:property name="storageLength" type="number">1</properties:property>
+          <properties:property name="displayLength" type="number">1</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X</properties:property>
+        </properties:properties>
+      </listructure:string>
+    </listructure:struct>
+    <listructure:struct id="EMPLOYEE_MASTER_FILE.EMP_WITHOLD_INFO" name="EMP_WITHOLD_INFO">
+      <properties:properties>
+        <properties:property name="storageLength" type="number">15</properties:property>
+        <properties:property name="displayLength" type="number">15</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+      </properties:properties>
+      <listructure:number id="EMPLOYEE_MASTER_FILE.EMP_WITHOLD_INFO.EMP_LIFE_INS_WITHOLD_AMT" length="6" name="EMP_LIFE_INS_WITHOLD_AMT">
+        <properties:properties>
+          <properties:property name="picture" type="string">S9999V99</properties:property>
+          <properties:property name="signed" type="boolean">true</properties:property>
+          <properties:property name="scale" type="number">2</properties:property>
+          <properties:property name="storageLength" type="number">6</properties:property>
+          <properties:property name="displayLength" type="number">6</properties:property>
+          <properties:property name="integerDigits" type="number">4</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">zoned</properties:property>
+          <properties:property name="mask" type="string">S9999V99</properties:property>
+        </properties:properties>
+      </listructure:number>
+      <listructure:number id="EMPLOYEE_MASTER_FILE.EMP_WITHOLD_INFO.EMP_NATL_TAX_WITHOLD_PCT" length="5" name="EMP_NATL_TAX_WITHOLD_PCT">
+        <properties:properties>
+          <properties:property name="picture" type="string">S999V99</properties:property>
+          <properties:property name="usage" type="string">computational-3</properties:property>
+          <properties:property name="signed" type="boolean">true</properties:property>
+          <properties:property name="scale" type="number">2</properties:property>
+          <properties:property name="storageLength" type="number">3</properties:property>
+          <properties:property name="displayLength" type="number">5</properties:property>
+          <properties:property name="integerDigits" type="number">3</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">packed</properties:property>
+        </properties:properties>
+      </listructure:number>
+      <listructure:number id="EMPLOYEE_MASTER_FILE.EMP_WITHOLD_INFO.EMP_REGION_TAX_WITHOLD_PCT" length="5" name="EMP_REGION_TAX_WITHOLD_PCT">
+        <properties:properties>
+          <properties:property name="picture" type="string">S999V99</properties:property>
+          <properties:property name="usage" type="string">computational-3</properties:property>
+          <properties:property name="signed" type="boolean">true</properties:property>
+          <properties:property name="scale" type="number">2</properties:property>
+          <properties:property name="storageLength" type="number">3</properties:property>
+          <properties:property name="displayLength" type="number">5</properties:property>
+          <properties:property name="integerDigits" type="number">3</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">packed</properties:property>
+        </properties:properties>
+      </listructure:number>
+      <listructure:number id="EMPLOYEE_MASTER_FILE.EMP_WITHOLD_INFO.EMP_LOCAL_TAX_WITHOLD_PCT" length="5" name="EMP_LOCAL_TAX_WITHOLD_PCT">
+        <properties:properties>
+          <properties:property name="picture" type="string">S999V99</properties:property>
+          <properties:property name="usage" type="string">computational-3</properties:property>
+          <properties:property name="signed" type="boolean">true</properties:property>
+          <properties:property name="scale" type="number">2</properties:property>
+          <properties:property name="storageLength" type="number">3</properties:property>
+          <properties:property name="displayLength" type="number">5</properties:property>
+          <properties:property name="integerDigits" type="number">3</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">packed</properties:property>
+        </properties:properties>
+      </listructure:number>
+    </listructure:struct>
+    <listructure:struct id="EMPLOYEE_MASTER_FILE.EMP_HOME_ADDRESS" name="EMP_HOME_ADDRESS">
+      <properties:properties>
+        <properties:property name="storageLength" type="number">50</properties:property>
+        <properties:property name="displayLength" type="number">50</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+      </properties:properties>
+      <listructure:string id="EMPLOYEE_MASTER_FILE.EMP_HOME_ADDRESS.EMP_STREET_ADDRESS" length="25" name="EMP_STREET_ADDRESS">
+        <properties:properties>
+          <properties:property name="picture" type="string">X(25)</properties:property>
+          <properties:property name="storageLength" type="number">25</properties:property>
+          <properties:property name="displayLength" type="number">25</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(25)</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:string id="EMPLOYEE_MASTER_FILE.EMP_HOME_ADDRESS.FILLER2" length="1" name="FILLER2">
+        <properties:properties>
+          <properties:property name="filler" type="boolean">true</properties:property>
+          <properties:property name="picture" type="string">X(01)</properties:property>
+          <properties:property name="storageLength" type="number">1</properties:property>
+          <properties:property name="displayLength" type="number">1</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(01)</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:string id="EMPLOYEE_MASTER_FILE.EMP_HOME_ADDRESS.EMP_CITY" length="15" name="EMP_CITY">
+        <properties:properties>
+          <properties:property name="picture" type="string">X(15)</properties:property>
+          <properties:property name="storageLength" type="number">15</properties:property>
+          <properties:property name="displayLength" type="number">15</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(15)</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:struct id="EMPLOYEE_MASTER_FILE.EMP_HOME_ADDRESS.EMP_STATE_PROV_CNTY" name="EMP_STATE_PROV_CNTY">
+        <properties:properties>
+          <properties:property name="storageLength" type="number">4</properties:property>
+          <properties:property name="displayLength" type="number">4</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+        </properties:properties>
+        <listructure:string id="EMPLOYEE_MASTER_FILE.EMP_HOME_ADDRESS.EMP_STATE_PROV_CNTY.EMP_STATE" length="2" name="EMP_STATE">
+          <properties:properties>
+            <properties:property name="picture" type="string">XX</properties:property>
+            <properties:property name="storageLength" type="number">2</properties:property>
+            <properties:property name="displayLength" type="number">2</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">XX</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="EMPLOYEE_MASTER_FILE.EMP_HOME_ADDRESS.EMP_STATE_PROV_CNTY.FILLER3" length="2" name="FILLER3">
+          <properties:properties>
+            <properties:property name="filler" type="boolean">true</properties:property>
+            <properties:property name="picture" type="string">XX</properties:property>
+            <properties:property name="storageLength" type="number">2</properties:property>
+            <properties:property name="displayLength" type="number">2</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">XX</properties:property>
+          </properties:properties>
+        </listructure:string>
+      </listructure:struct>
+      <listructure:number id="EMPLOYEE_MASTER_FILE.EMP_HOME_ADDRESS.EMP_POSTAL_CODE" length="5" name="EMP_POSTAL_CODE">
+        <properties:properties>
+          <properties:property name="picture" type="string">9(5)</properties:property>
+          <properties:property name="storageLength" type="number">5</properties:property>
+          <properties:property name="displayLength" type="number">5</properties:property>
+          <properties:property name="integerDigits" type="number">5</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">zoned</properties:property>
+          <properties:property name="mask" type="string">9(5)</properties:property>
+        </properties:properties>
+      </listructure:number>
+    </listructure:struct>
+    <listructure:struct id="EMPLOYEE_MASTER_FILE.EMP_EMERGENCY_CONTACT" name="EMP_EMERGENCY_CONTACT">
+      <properties:properties>
+        <properties:property name="storageLength" type="number">47</properties:property>
+        <properties:property name="displayLength" type="number">47</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+      </properties:properties>
+      <listructure:string id="EMPLOYEE_MASTER_FILE.EMP_EMERGENCY_CONTACT.EMP_CONTACT_NAME" length="25" name="EMP_CONTACT_NAME">
+        <properties:properties>
+          <properties:property name="picture" type="string">X(25)</properties:property>
+          <properties:property name="storageLength" type="number">25</properties:property>
+          <properties:property name="displayLength" type="number">25</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(25)</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:string id="EMPLOYEE_MASTER_FILE.EMP_EMERGENCY_CONTACT.FILLER4" length="2" name="FILLER4">
+        <properties:properties>
+          <properties:property name="filler" type="boolean">true</properties:property>
+          <properties:property name="picture" type="string">X(02)</properties:property>
+          <properties:property name="storageLength" type="number">2</properties:property>
+          <properties:property name="displayLength" type="number">2</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(02)</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:string id="EMPLOYEE_MASTER_FILE.EMP_EMERGENCY_CONTACT.EMP_CON_WORK_PHONE" length="10" name="EMP_CON_WORK_PHONE">
+        <properties:properties>
+          <properties:property name="picture" type="string">X(10)</properties:property>
+          <properties:property name="storageLength" type="number">10</properties:property>
+          <properties:property name="displayLength" type="number">10</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(10)</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:string id="EMPLOYEE_MASTER_FILE.EMP_EMERGENCY_CONTACT.EMP_CON_HOME_PHONE" length="10" name="EMP_CON_HOME_PHONE">
+        <properties:properties>
+          <properties:property name="picture" type="string">X(10)</properties:property>
+          <properties:property name="storageLength" type="number">10</properties:property>
+          <properties:property name="displayLength" type="number">10</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(10)</properties:property>
+        </properties:properties>
+      </listructure:string>
+    </listructure:struct>
+  </listructure:struct>
+</listructure:listructure>

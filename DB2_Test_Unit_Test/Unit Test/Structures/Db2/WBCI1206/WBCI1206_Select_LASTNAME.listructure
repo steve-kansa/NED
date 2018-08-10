@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 19.2.1.v20180806-1309_669?>
+<!--Topaz for Total Test 19.2.1.v20180806-1309_669 Aug 9, 2018 1:57:33 PM-->
+<listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="Unit%20Test/Structures/Db2/WBCI1206/WBCI1206_Select_LASTNAME.listructure">
+  <listructure:struct id="LASTNAME" name="LASTNAME">
+    <properties:properties>
+      <properties:property name="storageLength" type="number">15</properties:property>
+      <properties:property name="displayLength" type="number">15</properties:property>
+      <properties:property name="platform" type="string">mainframe</properties:property>
+    </properties:properties>
+    <listructure:string id="LASTNAME.LASTNAME" length="15" name="LASTNAME">
+      <properties:properties>
+        <properties:property name="picture" type="string">X(15)</properties:property>
+        <properties:property name="storageLength" type="number">15</properties:property>
+        <properties:property name="displayLength" type="number">15</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="sqltype" type="number">452</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(15)</properties:property>
+      </properties:properties>
+    </listructure:string>
+  </listructure:struct>
+</listructure:listructure>

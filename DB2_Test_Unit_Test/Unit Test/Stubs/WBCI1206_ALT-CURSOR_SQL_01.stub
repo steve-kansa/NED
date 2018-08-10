@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stub:stub xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" encoding="1047" id="Unit%20Test/Stubs/WBCI1206_ALT-CURSOR_SQL_01.stub" nextCalltoken="80007" stubtype="SQL CURSOR" target="Open" token="80000">
+  <stub:description>Created: Aug 9, 2018 1:58:38 PM</stub:description>
+  <stub:stubdata id="0" name="Open">
+    <stub:sqlResults>
+      <stub:result id="1" name="Close">
+        <stub:sqlStatus>
+          <stub:statement type="Close">
+            <stub:text>           EXEC SQL CLOSE ALT-CURSOR END-EXEC.
+</stub:text>
+          </stub:statement>
+          <stub:plist>
+            <stub:headerData>00400000002DE6C2C3C9F1F2F0F61A72025C1B2DCA49000137B3159C000000000000000004740005000002840000000000000000000000000000000000000000</stub:headerData>
+          </stub:plist>
+          <stub:sqlca callToken="80002">
+            <stub:rawData>E2D8D3C3C140404000000088FFFFFCDB002FC4C2C3C3C3E6C3C34B4BE6C2C3C9F1F2F0F64BF1C1F7F2F0F2F5C3F1C2F2C4C3C1F4F9FFC8E2E3D1E7D3F0F2FFF0F24040404040404040404040404040404040404040404040C4E2D5E7C5D7D440FFFFFF050000000000000000FFFFFFFF00000000000000004040404040404040404040F5F1F0F0F2</stub:rawData>
+          </stub:sqlca>
+        </stub:sqlStatus>
+      </stub:result>
+    </stub:sqlResults>
+    <stub:sqlStatus>
+      <stub:statement type="Open">
+        <stub:text>           EXEC SQL OPEN ALT-CURSOR END-EXEC.
+</stub:text>
+      </stub:statement>
+      <stub:plist>
+        <stub:headerData>004000000032E6C2C3C9F1F2F0F61A72025C1B2DCA49000137B3159C000000000000000004740003000002810000000000000000000000000000000000000000</stub:headerData>
+      </stub:plist>
+      <stub:sqlca callToken="80001">
+        <stub:rawData>E2D8D3C3C140404000000088FFFFFCDB002FC4C2C3C3C3E6C3C34B4BE6C2C3C9F1F2F0F64BF1C1F7F2F0F2F5C3F1C2F2C4C3C1F4F9FFC8E2E3D1E7D3F0F2FFF0F24040404040404040404040404040404040404040404040C4E2D5E7C5D7D440FFFFFF050000000000000000FFFFFFFF00000000000000004040404040404040404040F5F1F0F0F2</stub:rawData>
+      </stub:sqlca>
+    </stub:sqlStatus>
+  </stub:stubdata>
+  <stub:stubdata id="2" name="Open">
+    <stub:sqlResults>
+      <stub:result id="3" name="Close">
+        <stub:sqlStatus>
+          <stub:statement type="Close">
+            <stub:text>           EXEC SQL CLOSE ALT-CURSOR END-EXEC.
+</stub:text>
+          </stub:statement>
+          <stub:plist>
+            <stub:headerData>00400000002DE6C2C3C9F1F2F0F61A72025C1B2DCA49000137B3159C000000000000000004740005000002840000000000000000000000000000000000000000</stub:headerData>
+          </stub:plist>
+          <stub:sqlca callToken="80004">
+            <stub:rawData>E2D8D3C3C140404000000088FFFFFCDB002FC4C2C3C3C3E6C3C34B4BE6C2C3C9F1F2F0F64BF1C1F7F2F0F2F5C3F1C2F2C4C3C1F4F9FFC8E2E3D1E7D3F0F2FFF0F24040404040404040404040404040404040404040404040C4E2D5E7C5D7D440FFFFFF050000000000000000FFFFFFFF00000000000000004040404040404040404040F5F1F0F0F2</stub:rawData>
+          </stub:sqlca>
+        </stub:sqlStatus>
+      </stub:result>
+    </stub:sqlResults>
+    <stub:sqlStatus>
+      <stub:statement type="Open">
+        <stub:text>           EXEC SQL OPEN ALT-CURSOR END-EXEC.
+</stub:text>
+      </stub:statement>
+      <stub:plist>
+        <stub:headerData>004000000032E6C2C3C9F1F2F0F61A72025C1B2DCA49000137B3159C000000000000000004740003000002810000000000000000000000000000000000000000</stub:headerData>
+      </stub:plist>
+      <stub:sqlca callToken="80003">
+        <stub:rawData>E2D8D3C3C140404000000088FFFFFCDB002FC4C2C3C3C3E6C3C34B4BE6C2C3C9F1F2F0F64BF1C1F7F2F0F2F5C3F1C2F2C4C3C1F4F9FFC8E2E3D1E7D3F0F2FFF0F24040404040404040404040404040404040404040404040C4E2D5E7C5D7D440FFFFFF050000000000000000FFFFFFFF00000000000000004040404040404040404040F5F1F0F0F2</stub:rawData>
+      </stub:sqlca>
+    </stub:sqlStatus>
+  </stub:stubdata>
+  <stub:stubdata id="4" name="Open">
+    <stub:sqlResults>
+      <stub:result id="5" name="Close">
+        <stub:sqlStatus>
+          <stub:statement type="Close">
+            <stub:text>           EXEC SQL CLOSE ALT-CURSOR END-EXEC.
+</stub:text>
+          </stub:statement>
+          <stub:plist>
+            <stub:headerData>00400000002DE6C2C3C9F1F2F0F61A72025C1B2DCA49000137B3159C000000000000000004740005000002840000000000000000000000000000000000000000</stub:headerData>
+          </stub:plist>
+          <stub:sqlca callToken="80006">
+            <stub:rawData>E2D8D3C3C140404000000088FFFFFCDB002FC4C2C3C3C3E6C3C34B4BE6C2C3C9F1F2F0F64BF1C1F7F2F0F2F5C3F1C2F2C4C3C1F4F9FFC8E2E3D1E7D3F0F2FFF0F24040404040404040404040404040404040404040404040C4E2D5E7C5D7D440FFFFFF050000000000000000FFFFFFFF00000000000000004040404040404040404040F5F1F0F0F2</stub:rawData>
+          </stub:sqlca>
+        </stub:sqlStatus>
+      </stub:result>
+    </stub:sqlResults>
+    <stub:sqlStatus>
+      <stub:statement type="Open">
+        <stub:text>           EXEC SQL OPEN ALT-CURSOR END-EXEC.
+</stub:text>
+      </stub:statement>
+      <stub:plist>
+        <stub:headerData>004000000032E6C2C3C9F1F2F0F61A72025C1B2DCA49000137B3159C000000000000000004740003000002810000000000000000000000000000000000000000</stub:headerData>
+      </stub:plist>
+      <stub:sqlca callToken="80005">
+        <stub:rawData>E2D8D3C3C140404000000088FFFFFCDB002FC4C2C3C3C3E6C3C34B4BE6C2C3C9F1F2F0F64BF1C1F7F2F0F2F5C3F1C2F2C4C3C1F4F9FFC8E2E3D1E7D3F0F2FFF0F24040404040404040404040404040404040404040404040C4E2D5E7C5D7D440FFFFFF050000000000000000FFFFFFFF00000000000000004040404040404040404040F5F1F0F0F2</stub:rawData>
+      </stub:sqlca>
+    </stub:sqlStatus>
+  </stub:stubdata>
+  <stub:database version="1110"/>
+</stub:stub>

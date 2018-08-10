@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" encoding="1047" id="Unit%20Test/Stubs/WBCI1206_EMPSTAT_READ_01.stub" target="EMPSTAT" token="70000">
+  <stub:description>Created: Aug 9, 2018 1:58:37 PM</stub:description>
+  <stub:stubdata id="0" name="EMPSTAT">
+    <stub:interface>../Interfaces/WBCI1206_EMPSTAT_STATUS_DATA.interface#Unit%20Test/Interfaces/WBCI1206_EMPSTAT_STATUS_DATA.interface</stub:interface>
+    <stub:output listructure="../Structures/WBCI1206_EMPSTAT_STATUS-DATA.listructure#Unit%20Test/Structures/WBCI1206_EMPSTAT_STATUS-DATA.listructure">
+      <stub:data baseType="listructure:structType ../Structures/WBCI1206_EMPSTAT_STATUS-DATA.listructure#STATUS_DATA" id="arg0.STATUS_DATA">
+        <properties:properties>
+          <properties:property name="value" type="string">000A0000000130E1000000000000000000FD94E0000000007FFFF0007FFFF0007FFFF0007FFFF0007FFFF0007FFFF00000000000000000007FFFF0007FFFF00000000000000000000000000000FD94E0</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/WBCI1206_EMPSTAT_STATUS-DATA.listructure#STATUS_DATA.STATUS_DATA" id="output0.arg0.STATUS_DATA.STATUS_DATA" offset="0"/>
+    </stub:output>
+  </stub:stubdata>
+  <stub:stubdata id="1" name="EMPSTAT">
+    <stub:interface>../Interfaces/WBCI1206_EMPSTAT_STATUS_DATA.interface#Unit%20Test/Interfaces/WBCI1206_EMPSTAT_STATUS_DATA.interface</stub:interface>
+    <stub:output listructure="../Structures/WBCI1206_EMPSTAT_STATUS-DATA.listructure#Unit%20Test/Structures/WBCI1206_EMPSTAT_STATUS-DATA.listructure">
+      <stub:data baseType="listructure:structType ../Structures/WBCI1206_EMPSTAT_STATUS-DATA.listructure#STATUS_DATA" id="arg0.STATUS_DATA">
+        <properties:properties>
+          <properties:property name="value" type="string">000A0000000130E1000000000000000000FD94E0000000007FFFF0007FFFF0007FFFF0007FFFF0007FFFF0007FFFF00000000000000000007FFFF0007FFFF00000000000000000000000000000FD94E0</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/WBCI1206_EMPSTAT_STATUS-DATA.listructure#STATUS_DATA.STATUS_DATA" id="output1.arg0.STATUS_DATA.STATUS_DATA" offset="0"/>
+    </stub:output>
+  </stub:stubdata>
+  <stub:stubdata id="2" name="EMPSTAT">
+    <stub:interface>../Interfaces/WBCI1206_EMPSTAT_STATUS_DATA.interface#Unit%20Test/Interfaces/WBCI1206_EMPSTAT_STATUS_DATA.interface</stub:interface>
+    <stub:output listructure="../Structures/WBCI1206_EMPSTAT_STATUS-DATA.listructure#Unit%20Test/Structures/WBCI1206_EMPSTAT_STATUS-DATA.listructure">
+      <stub:data baseType="listructure:structType ../Structures/WBCI1206_EMPSTAT_STATUS-DATA.listructure#STATUS_DATA" id="arg0.STATUS_DATA">
+        <properties:properties>
+          <properties:property name="value" type="string">000A0000000130E1000000000000000000FD94E0000000007FFFF0007FFFF0007FFFF0007FFFF0007FFFF0007FFFF00000000000000000007FFFF0007FFFF00000000000000000000000000000FD94E0</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/WBCI1206_EMPSTAT_STATUS-DATA.listructure#STATUS_DATA.STATUS_DATA" id="output2.arg0.STATUS_DATA.STATUS_DATA" offset="0"/>
+    </stub:output>
+  </stub:stubdata>
+  <stub:stubdata id="3" name="EMPSTAT">
+    <stub:interface>../Interfaces/WBCI1206_EMPSTAT_STATUS_DATA.interface#Unit%20Test/Interfaces/WBCI1206_EMPSTAT_STATUS_DATA.interface</stub:interface>
+    <stub:output listructure="../Structures/WBCI1206_EMPSTAT_STATUS-DATA.listructure#Unit%20Test/Structures/WBCI1206_EMPSTAT_STATUS-DATA.listructure">
+      <stub:data baseType="listructure:structType ../Structures/WBCI1206_EMPSTAT_STATUS-DATA.listructure#STATUS_DATA" id="arg0.STATUS_DATA">
+        <properties:properties>
+          <properties:property name="value" type="string">000A0000000130E1000000000000000000FD94E0000000007FFFF0007FFFF0007FFFF0007FFFF0007FFFF0007FFFF00000000000000000007FFFF0007FFFF00000000000000000000000000000FD94E0</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/WBCI1206_EMPSTAT_STATUS-DATA.listructure#STATUS_DATA.STATUS_DATA" id="output3.arg0.STATUS_DATA.STATUS_DATA" offset="0"/>
+    </stub:output>
+  </stub:stubdata>
+</stub:stub>

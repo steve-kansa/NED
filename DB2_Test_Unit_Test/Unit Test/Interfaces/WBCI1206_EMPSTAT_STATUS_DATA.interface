@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 19.2.1.v20180806-1309_669?>
+<!--Topaz for Total Test 19.2.1.v20180806-1309_669 Aug 9, 2018 1:58:37 PM-->
+<interface:interface xmlns:interface="http://www.compuware.com/model/xml/interface" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" alias="" id="Unit%20Test/Interfaces/WBCI1206_EMPSTAT_STATUS_DATA.interface">
+  <interface:description></interface:description>
+  <interface:argument listructure="../Structures/WBCI1206_EMPSTAT_STATUS-DATA.listructure#Unit%20Test/Structures/WBCI1206_EMPSTAT_STATUS-DATA.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/WBCI1206_EMPSTAT_STATUS-DATA.listructure#STATUS_DATA">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/WBCI1206_EMPSTAT_STATUS-DATA.listructure#STATUS_DATA.STATUS_DATA">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+</interface:interface>

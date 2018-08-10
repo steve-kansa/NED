@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" encoding="1047" id="Unit%20Test/Stubs/WBCI1206_EMPINP_READ_01.stub" target="EMPINP" token="50000">
+  <stub:description>Created: Aug 9, 2018 1:57:37 PM</stub:description>
+  <stub:stubdata id="0" name="EMPINP">
+    <stub:interface>../Interfaces/WBCI1206_EMPINP_WS_SALES_RECORD.interface#Unit%20Test/Interfaces/WBCI1206_EMPINP_WS_SALES_RECORD.interface</stub:interface>
+    <stub:output listructure="../Structures/WBCI1206_EMPINP_WS-SALES-RECORD.listructure#Unit%20Test/Structures/WBCI1206_EMPINP_WS-SALES-RECORD.listructure">
+      <stub:data baseType="listructure:structType ../Structures/WBCI1206_EMPINP_WS-SALES-RECORD.listructure#WS_SALES_RECORD" id="arg0.WS_SALES_RECORD">
+        <properties:properties>
+          <properties:property name="value" type="string">C1F0F4F0F1F8D140C38881999396A3A3854040404040404040404040D5C3D7D6E24040400091140F0000000F40404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/WBCI1206_EMPINP_WS-SALES-RECORD.listructure#WS_SALES_RECORD.WS_SALES_RECORD" id="output0.arg0.WS_SALES_RECORD.WS_SALES_RECORD" offset="0"/>
+    </stub:output>
+  </stub:stubdata>
+  <stub:stubdata id="1" name="EMPINP">
+    <stub:interface>../Interfaces/WBCI1206_EMPINP_WS_SALES_RECORD.interface#Unit%20Test/Interfaces/WBCI1206_EMPINP_WS_SALES_RECORD.interface</stub:interface>
+    <stub:output listructure="../Structures/WBCI1206_EMPINP_WS-SALES-RECORD.listructure#Unit%20Test/Structures/WBCI1206_EMPINP_WS-SALES-RECORD.listructure">
+      <stub:data baseType="listructure:structType ../Structures/WBCI1206_EMPINP_WS-SALES-RECORD.listructure#WS_SALES_RECORD" id="arg0.WS_SALES_RECORD">
+        <properties:properties>
+          <properties:property name="value" type="string">C1F2F7F4F5F3D340D48993A681A49285854040404040404040404040E6C9D6D5D34040400007821F0000000F40404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/WBCI1206_EMPINP_WS-SALES-RECORD.listructure#WS_SALES_RECORD.WS_SALES_RECORD" id="output1.arg0.WS_SALES_RECORD.WS_SALES_RECORD" offset="0"/>
+    </stub:output>
+  </stub:stubdata>
+  <stub:stubdata id="2" name="EMPINP">
+    <stub:interface>../Interfaces/WBCI1206_EMPINP_WS_SALES_RECORD.interface#Unit%20Test/Interfaces/WBCI1206_EMPINP_WS_SALES_RECORD.interface</stub:interface>
+    <stub:output listructure="../Structures/WBCI1206_EMPINP_WS-SALES-RECORD.listructure#Unit%20Test/Structures/WBCI1206_EMPINP_WS-SALES-RECORD.listructure">
+      <stub:data baseType="listructure:structType ../Structures/WBCI1206_EMPINP_WS-SALES-RECORD.listructure#WS_SALES_RECORD" id="arg0.WS_SALES_RECORD">
+        <properties:properties>
+          <properties:property name="value" type="string">C1F3F2F9F9F4D340E681A89585404040404040404040404040404040D5D1D6D5D34040400018793F0000000F40404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/WBCI1206_EMPINP_WS-SALES-RECORD.listructure#WS_SALES_RECORD.WS_SALES_RECORD" id="output2.arg0.WS_SALES_RECORD.WS_SALES_RECORD" offset="0"/>
+    </stub:output>
+  </stub:stubdata>
+  <stub:stubdata id="3" name="EMPINP">
+    <stub:interface>../Interfaces/WBCI1206_EMPINP_WS_SALES_RECORD.interface#Unit%20Test/Interfaces/WBCI1206_EMPINP_WS_SALES_RECORD.interface</stub:interface>
+    <stub:output listructure="../Structures/WBCI1206_EMPINP_WS-SALES-RECORD.listructure#Unit%20Test/Structures/WBCI1206_EMPINP_WS-SALES-RECORD.listructure">
+      <stub:data baseType="listructure:structType ../Structures/WBCI1206_EMPINP_WS-SALES-RECORD.listructure#WS_SALES_RECORD" id="arg0.WS_SALES_RECORD">
+        <properties:properties>
+          <properties:property name="value" type="string">C1F4F7F2F3F6D140D989838894969584404040404040404040404040C3C1D6D5D34040400052193F0000000F40404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/WBCI1206_EMPINP_WS-SALES-RECORD.listructure#WS_SALES_RECORD.WS_SALES_RECORD" id="output3.arg0.WS_SALES_RECORD.WS_SALES_RECORD" offset="0"/>
+    </stub:output>
+  </stub:stubdata>
+  <stub:stubdata id="4" name="EMPINP">
+    <stub:interface>../Interfaces/WBCI1206_EMPINP_WS_SALES_RECORD.interface#Unit%20Test/Interfaces/WBCI1206_EMPINP_WS_SALES_RECORD.interface</stub:interface>
+    <stub:output listructure="../Structures/WBCI1206_EMPINP_WS-SALES-RECORD.listructure#Unit%20Test/Structures/WBCI1206_EMPINP_WS-SALES-RECORD.listructure">
+      <stub:data baseType="listructure:structType ../Structures/WBCI1206_EMPINP_WS-SALES-RECORD.listructure#WS_SALES_RECORD" id="arg0.WS_SALES_RECORD">
+        <properties:properties>
+          <properties:property name="value" type="string">C1F5F3F9F1F1E740C481939381A24040404040404040404040404040E3E7D6D5D34040400069029F0000000F40404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/WBCI1206_EMPINP_WS-SALES-RECORD.listructure#WS_SALES_RECORD.WS_SALES_RECORD" id="output4.arg0.WS_SALES_RECORD.WS_SALES_RECORD" offset="0"/>
+    </stub:output>
+  </stub:stubdata>
+  <stub:stubdata id="5" name="EMPINP">
+    <stub:interface>../Interfaces/WBCI1206_EMPINP_WS_SALES_RECORD.interface#Unit%20Test/Interfaces/WBCI1206_EMPINP_WS_SALES_RECORD.interface</stub:interface>
+    <stub:output listructure="../Structures/WBCI1206_EMPINP_WS-SALES-RECORD.listructure#Unit%20Test/Structures/WBCI1206_EMPINP_WS-SALES-RECORD.listructure">
+      <stub:data baseType="listructure:structType ../Structures/WBCI1206_EMPINP_WS-SALES-RECORD.listructure#WS_SALES_RECORD" id="arg0.WS_SALES_RECORD">
+        <properties:properties>
+          <properties:property name="value" type="string">C1F7F1F4F2F8C240E297969281958540404040404040404040404040E6C1D7D6E24040400040075F0000000F40404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/WBCI1206_EMPINP_WS-SALES-RECORD.listructure#WS_SALES_RECORD.WS_SALES_RECORD" id="output5.arg0.WS_SALES_RECORD.WS_SALES_RECORD" offset="0"/>
+    </stub:output>
+  </stub:stubdata>
+  <stub:stubdata id="6" name="EMPINP">
+    <stub:interface>../Interfaces/WBCI1206_EMPINP_WS_SALES_RECORD.interface#Unit%20Test/Interfaces/WBCI1206_EMPINP_WS_SALES_RECORD.interface</stub:interface>
+    <stub:output listructure="../Structures/WBCI1206_EMPINP_WS-SALES-RECORD.listructure#Unit%20Test/Structures/WBCI1206_EMPINP_WS-SALES-RECORD.listructure">
+      <stub:data baseType="listructure:structType ../Structures/WBCI1206_EMPINP_WS-SALES-RECORD.listructure#WS_SALES_RECORD" id="arg0.WS_SALES_RECORD">
+        <properties:properties>
+          <properties:property name="value" type="string">C2F4F2F1F1F4C340D785969989814040404040404040404040404040C9D3D7D6E24040400037843F0000000F40404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/WBCI1206_EMPINP_WS-SALES-RECORD.listructure#WS_SALES_RECORD.WS_SALES_RECORD" id="output6.arg0.WS_SALES_RECORD.WS_SALES_RECORD" offset="0"/>
+    </stub:output>
+  </stub:stubdata>
+  <stub:stubdata id="7" name="EMPINP">
+    <stub:interface>../Interfaces/WBCI1206_EMPINP_WS_SALES_RECORD.interface#Unit%20Test/Interfaces/WBCI1206_EMPINP_WS_SALES_RECORD.interface</stub:interface>
+    <stub:output listructure="../Structures/WBCI1206_EMPINP_WS-SALES-RECORD.listructure#Unit%20Test/Structures/WBCI1206_EMPINP_WS-SALES-RECORD.listructure">
+      <stub:data baseType="listructure:structType ../Structures/WBCI1206_EMPINP_WS-SALES-RECORD.listructure#WS_SALES_RECORD" id="arg0.WS_SALES_RECORD">
+        <properties:properties>
+          <properties:property name="value" type="string">C2F9F6F1F0F0E740E2819540C195A396958996404040404040404040E3E7D6D5D34040400080128F0000000F40404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/WBCI1206_EMPINP_WS-SALES-RECORD.listructure#WS_SALES_RECORD.WS_SALES_RECORD" id="output7.arg0.WS_SALES_RECORD.WS_SALES_RECORD" offset="0"/>
+    </stub:output>
+  </stub:stubdata>
+  <stub:stubdata id="8" name="EMPINP">
+    <stub:interface>../Interfaces/WBCI1206_EMPINP_WS_SALES_RECORD.interface#Unit%20Test/Interfaces/WBCI1206_EMPINP_WS_SALES_RECORD.interface</stub:interface>
+    <stub:output listructure="../Structures/WBCI1206_EMPINP_WS-SALES-RECORD.listructure#Unit%20Test/Structures/WBCI1206_EMPINP_WS-SALES-RECORD.listructure">
+      <stub:data baseType="listructure:structType ../Structures/WBCI1206_EMPINP_WS-SALES-RECORD.listructure#WS_SALES_RECORD" id="arg0.WS_SALES_RECORD">
+        <properties:properties>
+          <properties:property name="value" type="string">C3F4F1F0F9F2C140D788899381848593978889814040404040404040D7C1D6D5D34040400073400F0000000F40404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/WBCI1206_EMPINP_WS-SALES-RECORD.listructure#WS_SALES_RECORD.WS_SALES_RECORD" id="output8.arg0.WS_SALES_RECORD.WS_SALES_RECORD" offset="0"/>
+    </stub:output>
+  </stub:stubdata>
+  <stub:stubdata id="9" name="EMPINP">
+    <stub:interface>../Interfaces/WBCI1206_EMPINP_WS_SALES_RECORD.interface#Unit%20Test/Interfaces/WBCI1206_EMPINP_WS_SALES_RECORD.interface</stub:interface>
+    <stub:output listructure="../Structures/WBCI1206_EMPINP_WS-SALES-RECORD.listructure#Unit%20Test/Structures/WBCI1206_EMPINP_WS-SALES-RECORD.listructure">
+      <stub:data baseType="listructure:structType ../Structures/WBCI1206_EMPINP_WS-SALES-RECORD.listructure#WS_SALES_RECORD" id="arg0.WS_SALES_RECORD">
+        <properties:properties>
+          <properties:property name="value" type="string">C3F8F1F7F4F0C240C1A487A4A2A38140404040404040404040404040C7C1D7D6E24040400045499F0000000F40404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/WBCI1206_EMPINP_WS-SALES-RECORD.listructure#WS_SALES_RECORD.WS_SALES_RECORD" id="output9.arg0.WS_SALES_RECORD.WS_SALES_RECORD" offset="0"/>
+    </stub:output>
+  </stub:stubdata>
+  <stub:stubdata id="10" name="EMPINP">
+    <stub:interface>../Interfaces/WBCI1206_EMPINP_WS_SALES_RECORD.interface#Unit%20Test/Interfaces/WBCI1206_EMPINP_WS_SALES_RECORD.interface</stub:interface>
+    <stub:output listructure="../Structures/WBCI1206_EMPINP_WS-SALES-RECORD.listructure#Unit%20Test/Structures/WBCI1206_EMPINP_WS-SALES-RECORD.listructure">
+      <stub:data baseType="listructure:structType ../Structures/WBCI1206_EMPINP_WS-SALES-RECORD.listructure#WS_SALES_RECORD" id="arg0.WS_SALES_RECORD">
+        <properties:properties>
+          <properties:property name="value" type="string">C1F2F4F4F5F9D340D48993A681A49285854040404040404040404040E6C9D6D5D34040400067709F0000000F40404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/WBCI1206_EMPINP_WS-SALES-RECORD.listructure#WS_SALES_RECORD.WS_SALES_RECORD" id="output10.arg0.WS_SALES_RECORD.WS_SALES_RECORD" offset="0"/>
+    </stub:output>
+  </stub:stubdata>
+  <stub:stubdata id="11" name="EMPINP">
+    <stub:interface>../Interfaces/WBCI1206_EMPINP_WS_SALES_RECORD.interface#Unit%20Test/Interfaces/WBCI1206_EMPINP_WS_SALES_RECORD.interface</stub:interface>
+    <stub:output listructure="../Structures/WBCI1206_EMPINP_WS-SALES-RECORD.listructure#Unit%20Test/Structures/WBCI1206_EMPINP_WS-SALES-RECORD.listructure">
+      <stub:data baseType="listructure:structType ../Structures/WBCI1206_EMPINP_WS-SALES-RECORD.listructure#WS_SALES_RECORD" id="arg0.WS_SALES_RECORD">
+        <properties:properties>
+          <properties:property name="value" type="string">C5F4F2F8F0F1E740E2819540C69981958389A2839640404040404040C3C1D7D6E24040400081121F0000000F40404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/WBCI1206_EMPINP_WS-SALES-RECORD.listructure#WS_SALES_RECORD.WS_SALES_RECORD" id="output11.arg0.WS_SALES_RECORD.WS_SALES_RECORD" offset="0"/>
+    </stub:output>
+  </stub:stubdata>
+  <stub:stubdata id="12" name="EMPINP">
+    <stub:interface>../Interfaces/WBCI1206_EMPINP_WS_SALES_RECORD.interface#Unit%20Test/Interfaces/WBCI1206_EMPINP_WS_SALES_RECORD.interface</stub:interface>
+    <stub:output listructure="../Structures/WBCI1206_EMPINP_WS-SALES-RECORD.listructure#Unit%20Test/Structures/WBCI1206_EMPINP_WS-SALES-RECORD.listructure">
+      <stub:data baseType="listructure:structType ../Structures/WBCI1206_EMPINP_WS-SALES-RECORD.listructure#WS_SALES_RECORD" id="arg0.WS_SALES_RECORD">
+        <properties:properties>
+          <properties:property name="value" type="string">C5F8F7F4F2F5D340C69985A295964040404040404040404040404040C3C1D7D6E24040400119208F0000000F40404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/WBCI1206_EMPINP_WS-SALES-RECORD.listructure#WS_SALES_RECORD.WS_SALES_RECORD" id="output12.arg0.WS_SALES_RECORD.WS_SALES_RECORD" offset="0"/>
+    </stub:output>
+  </stub:stubdata>
+  <stub:stubdata id="13" name="EMPINP">
+    <stub:interface>../Interfaces/WBCI1206_EMPINP_WS_SALES_RECORD.interface#Unit%20Test/Interfaces/WBCI1206_EMPINP_WS_SALES_RECORD.interface</stub:interface>
+    <stub:output listructure="../Structures/WBCI1206_EMPINP_WS-SALES-RECORD.listructure#Unit%20Test/Structures/WBCI1206_EMPINP_WS-SALES-RECORD.listructure">
+      <stub:data baseType="listructure:structType ../Structures/WBCI1206_EMPINP_WS-SALES-RECORD.listructure#WS_SALES_RECORD" id="arg0.WS_SALES_RECORD">
+        <properties:properties>
+          <properties:property name="value" type="string">C1F6F7F4F2F1C140E288858296A88781954040404040404040404040E6C9D6D5D34040400140000F0000000F40404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/WBCI1206_EMPINP_WS-SALES-RECORD.listructure#WS_SALES_RECORD.WS_SALES_RECORD" id="output13.arg0.WS_SALES_RECORD.WS_SALES_RECORD" offset="0"/>
+    </stub:output>
+  </stub:stubdata>
+  <stub:stubdata id="14" name="EMPINP">
+    <stub:interface>../Interfaces/WBCI1206_EMPINP_WS_SALES_RECORD.interface#Unit%20Test/Interfaces/WBCI1206_EMPINP_WS_SALES_RECORD.interface</stub:interface>
+    <stub:output listructure="../Structures/WBCI1206_EMPINP_WS-SALES-RECORD.listructure#Unit%20Test/Structures/WBCI1206_EMPINP_WS-SALES-RECORD.listructure">
+      <stub:data baseType="listructure:structType ../Structures/WBCI1206_EMPINP_WS-SALES-RECORD.listructure#WS_SALES_RECORD" id="arg0.WS_SALES_RECORD">
+        <properties:properties>
+          <properties:property name="value" type="string">C1F8F7F5F6F4C540D581978140404040404040404040404040404040C3C1D7D6E24040400034540F0000000F40404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/WBCI1206_EMPINP_WS-SALES-RECORD.listructure#WS_SALES_RECORD.WS_SALES_RECORD" id="output14.arg0.WS_SALES_RECORD.WS_SALES_RECORD" offset="0"/>
+    </stub:output>
+  </stub:stubdata>
+</stub:stub>

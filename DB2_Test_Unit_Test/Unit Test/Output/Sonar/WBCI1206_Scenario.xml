@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 19.2.1.v20180806-1309_669?>
+<!--Topaz for Total Test 19.2.1.v20180806-1309_669 Aug 9, 2018 1:11:11 PM-->
+<testExecutions version="1">
+  <file path="C:\Users\hstjxl0\Compuware\Topaz Daily\workspace\DB2_Test_Unit_Test\Unit Test\Scenarios\WBCI1206_Scenario.testscenario">
+    <testCase duration="0" name="DB2_Test_Unit_Test.WBCI1206_Scenario.00001: WBCI1206Case1.00001: Check for PARM_LTH"/>
+    <testCase duration="0" name="DB2_Test_Unit_Test.WBCI1206_Scenario.00001: WBCI1206Case1.00002: Check for LOOP_FILL"/>
+    <testCase duration="0" name="DB2_Test_Unit_Test.WBCI1206_Scenario.00001: WBCI1206Case1.00003: Check for LOOP_CNT"/>
+  </file>
+</testExecutions>
