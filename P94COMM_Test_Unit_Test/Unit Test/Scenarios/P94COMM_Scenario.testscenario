@@ -1,4 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?totaltestVersion 19.2.1.v20180806-1309_669?>
 <!--Topaz for Total Test 19.2.1.v20180806-1309_669 Aug 9, 2018 1:58:55 PM-->
-<testscenario:testscenario xmlns:checkconditions="http://www.compuware.com/model/xml/checkconditions" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:testcase="http://www.compuware.com/model/xml/testcase" xmlns:testscenario="http://www.compuware.com/model/xml/testscenario" alias="" id="Unit%20Test/Scenarios/WBCI1206_Scenario.testscenario"><testscenario:description></testscenario:description><testscenario:testcases><testscenario:testcase alias="" csect="WBCI1206" encoding="1047" id="Unit%20Test/Scenarios/WBCI1206_Scenario.testscenario%23WBCI1206Case1" target="WBCI1206"><testcase:description></testcase:description><testcase:ddio>HSTJXL0.RVII.WEBCAST.DDIO</testcase:ddio><testcase:ddiotype>DDIO</testcase:ddiotype><testcase:targetCaptureCompileTime>1512873898000</testcase:targetCaptureCompileTime><testcase:interface>../Interfaces/WBCI1206.interface#Unit%20Test/Interfaces/WBCI1206.interface</testcase:interface><testcase:input listructure="../Structures/WBCI1206_PARMINFO.listructure#Unit%20Test/Structures/WBCI1206_PARMINFO.listructure"><testcase:data baseType="listructure:structType ../Structures/WBCI1206_PARMINFO.listructure#PARMINFO" id="arg0.PARMINFO"><properties:properties><properties:property name="value" type="string">000361F0F4</properties:property><properties:property name="expectedValue" type="string">000361F0F4</properties:property></properties:properties></testcase:data><testcase:data baseType="listructure:numberType ../Structures/WBCI1206_PARMINFO.listructure#PARMINFO.PARM_LTH" id="input.arg0.PARMINFO.PARM_LTH" offset="0"/><testcase:data baseType="listructure:stringType ../Structures/WBCI1206_PARMINFO.listructure#PARMINFO.LOOP_FILL" id="input.arg0.PARMINFO.LOOP_FILL" offset="2"/><testcase:data baseType="listructure:stringType ../Structures/WBCI1206_PARMINFO.listructure#PARMINFO.LOOP_CNT" id="input.arg0.PARMINFO.LOOP_CNT" offset="3"/></testcase:input><testcase:output listructure="../Structures/WBCI1206_PARMINFO.listructure#Unit%20Test/Structures/WBCI1206_PARMINFO.listructure"/><testcase:checkconditions><checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/><checkconditions:simpleCheckcondition message="Check for PARM_LTH failed" name="Check for PARM_LTH" refData="#input.arg0.PARMINFO.PARM_LTH"><checkconditions:expression>BigDecimalCreator.make('3').compareTo(output.arg0.PARMINFO.PARM_LTH) eq 0</checkconditions:expression><checkconditions:expectation assert="=" type="number">3</checkconditions:expectation></checkconditions:simpleCheckcondition><checkconditions:simpleCheckcondition message="Check for LOOP_FILL failed" name="Check for LOOP_FILL" refData="#input.arg0.PARMINFO.LOOP_FILL"><checkconditions:expression>'/' eq output.arg0.PARMINFO.LOOP_FILL</checkconditions:expression><checkconditions:expectation assert="=" type="string">/</checkconditions:expectation></checkconditions:simpleCheckcondition><checkconditions:simpleCheckcondition message="Check for LOOP_CNT failed" name="Check for LOOP_CNT" refData="#input.arg0.PARMINFO.LOOP_CNT"><checkconditions:expression>'04' eq output.arg0.PARMINFO.LOOP_CNT</checkconditions:expression><checkconditions:expectation assert="=" type="string">04</checkconditions:expectation></checkconditions:simpleCheckcondition></testcase:checkconditions><testcase:stubs><testcase:stub>../Stubs/WBCI1206_WBCI0090_01.stub#Unit%20Test/Stubs/WBCI1206_WBCI0090_01.stub</testcase:stub><testcase:stub>../Stubs/WBCI1206_WBCI0080_01.stub#Unit%20Test/Stubs/WBCI1206_WBCI0080_01.stub</testcase:stub><testcase:stub>../Stubs/WBCI1206_RVWKEVAL_01.stub#Unit%20Test/Stubs/WBCI1206_RVWKEVAL_01.stub</testcase:stub><testcase:stub>../Stubs/WBCI1206_WBCI0040_01.stub#Unit%20Test/Stubs/WBCI1206_WBCI0040_01.stub</testcase:stub><testcase:stub>../Stubs/WBCI1206_EMPFILE_READ_01.stub#Unit%20Test/Stubs/WBCI1206_EMPFILE_READ_01.stub</testcase:stub><testcase:stub>../Stubs/WBCI1206_EMPSTAT_READ_01.stub#Unit%20Test/Stubs/WBCI1206_EMPSTAT_READ_01.stub</testcase:stub><testcase:stub>../Stubs/WBCI1206_EMPINP_READ_01.stub#Unit%20Test/Stubs/WBCI1206_EMPINP_READ_01.stub</testcase:stub><testcase:stub>../Stubs/WBCI1206_Select_1_SQL_01.stub#Unit%20Test/Stubs/WBCI1206_Select_1_SQL_01.stub</testcase:stub><testcase:stub>../Stubs/WBCI1206_ALT-CURSOR_SQL_01.stub#Unit%20Test/Stubs/WBCI1206_ALT-CURSOR_SQL_01.stub</testcase:stub></testcase:stubs></testscenario:testcase></testscenario:testcases></testscenario:testscenario>
+<testscenario:testscenario xmlns:checkconditions="http://www.compuware.com/model/xml/checkconditions" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:testcase="http://www.compuware.com/model/xml/testcase" xmlns:testscenario="http://www.compuware.com/model/xml/testscenario" alias="" id="Unit%20Test/Scenarios/P94COMM_Scenario.testscenario">
+  <testscenario:description></testscenario:description>
+  <testscenario:testcases>
+    <testscenario:testcase alias="" csect="WBCI1206" encoding="1047" id="Unit%20Test/Scenarios/WBCI1206_Scenario.testscenario%23P94COMMCase1" target="WBCI1206">
+      <testcase:description></testcase:description>
+      <testcase:ddio>HSTJXL0.RVII.WEBCAST.DDIO</testcase:ddio>
+      <testcase:ddiotype>DDIO</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1512873898000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/WBCI1206.interface#Unit%20Test/Interfaces/WBCI1206.interface</testcase:interface>
+      <testcase:input listructure="../Structures/WBCI1206_PARMINFO.listructure#Unit%20Test/Structures/WBCI1206_PARMINFO.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/WBCI1206_PARMINFO.listructure#PARMINFO" id="arg0.PARMINFO">
+          <properties:properties>
+            <properties:property name="value" type="string">000361F0F4</properties:property>
+            <properties:property name="expectedValue" type="string">000361F0F4</properties:property>
+          </properties:properties>
+        </testcase:data>
+        <testcase:data baseType="listructure:numberType ../Structures/WBCI1206_PARMINFO.listructure#PARMINFO.PARM_LTH" id="input.arg0.PARMINFO.PARM_LTH" offset="0"/>
+        <testcase:data baseType="listructure:stringType ../Structures/WBCI1206_PARMINFO.listructure#PARMINFO.LOOP_FILL" id="input.arg0.PARMINFO.LOOP_FILL" offset="2"/>
+        <testcase:data baseType="listructure:stringType ../Structures/WBCI1206_PARMINFO.listructure#PARMINFO.LOOP_CNT" id="input.arg0.PARMINFO.LOOP_CNT" offset="3"/>
+      </testcase:input>
+      <testcase:output listructure="../Structures/WBCI1206_PARMINFO.listructure#Unit%20Test/Structures/WBCI1206_PARMINFO.listructure"/>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+        <checkconditions:simpleCheckcondition message="Check for PARM_LTH failed" name="Check for PARM_LTH" refData="#input.arg0.PARMINFO.PARM_LTH">
+          <checkconditions:expression>BigDecimalCreator.make('3').compareTo(output.arg0.PARMINFO.PARM_LTH) eq 0</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="number">3</checkconditions:expectation>
+        </checkconditions:simpleCheckcondition>
+        <checkconditions:simpleCheckcondition message="Check for LOOP_FILL failed" name="Check for LOOP_FILL" refData="#input.arg0.PARMINFO.LOOP_FILL">
+          <checkconditions:expression>'/' eq output.arg0.PARMINFO.LOOP_FILL</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="string">/</checkconditions:expectation>
+        </checkconditions:simpleCheckcondition>
+        <checkconditions:simpleCheckcondition message="Check for LOOP_CNT failed" name="Check for LOOP_CNT" refData="#input.arg0.PARMINFO.LOOP_CNT">
+          <checkconditions:expression>'04' eq output.arg0.PARMINFO.LOOP_CNT</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="string">04</checkconditions:expectation>
+        </checkconditions:simpleCheckcondition>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/WBCI1206_WBCI0090_01.stub#Unit%20Test/Stubs/WBCI1206_WBCI0090_01.stub</testcase:stub>
+        <testcase:stub>../Stubs/WBCI1206_WBCI0080_01.stub#Unit%20Test/Stubs/WBCI1206_WBCI0080_01.stub</testcase:stub>
+        <testcase:stub>../Stubs/WBCI1206_RVWKEVAL_01.stub#Unit%20Test/Stubs/WBCI1206_RVWKEVAL_01.stub</testcase:stub>
+        <testcase:stub>../Stubs/WBCI1206_WBCI0040_01.stub#Unit%20Test/Stubs/WBCI1206_WBCI0040_01.stub</testcase:stub>
+        <testcase:stub>../Stubs/WBCI1206_EMPFILE_READ_01.stub#Unit%20Test/Stubs/WBCI1206_EMPFILE_READ_01.stub</testcase:stub>
+        <testcase:stub>../Stubs/WBCI1206_EMPSTAT_READ_01.stub#Unit%20Test/Stubs/WBCI1206_EMPSTAT_READ_01.stub</testcase:stub>
+        <testcase:stub>../Stubs/WBCI1206_EMPINP_READ_01.stub#Unit%20Test/Stubs/WBCI1206_EMPINP_READ_01.stub</testcase:stub>
+        <testcase:stub>../Stubs/WBCI1206_Select_1_SQL_01.stub#Unit%20Test/Stubs/WBCI1206_Select_1_SQL_01.stub</testcase:stub>
+        <testcase:stub>../Stubs/WBCI1206_ALT-CURSOR_SQL_01.stub#Unit%20Test/Stubs/WBCI1206_ALT-CURSOR_SQL_01.stub</testcase:stub>
+      </testcase:stubs>
+    </testscenario:testcase>
+  </testscenario:testcases>
+</testscenario:testscenario>
