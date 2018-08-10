@@ -487,7 +487,7 @@
     <stub:output listructure="../Structures/CWBWDATE_CWBWDATE_END-OF-MONTH-SW.listructure#Unit%20Test/Structures/CWBWDATE_CWBWDATE_END-OF-MONTH-SW.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWBWDATE_CWBWDATE_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW" id="arg0.END_OF_MONTH_SW">
         <properties:properties>
-          <properties:property name="value" type="string">D5</properties:property>
+          <properties:property name="value" type="string">E8</properties:property>
         </properties:properties>
       </stub:data>
       <stub:data baseType="listructure:stringType ../Structures/CWBWDATE_CWBWDATE_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW.END_OF_MONTH_SW" id="output13.arg0.END_OF_MONTH_SW.END_OF_MONTH_SW" offset="0"/>
