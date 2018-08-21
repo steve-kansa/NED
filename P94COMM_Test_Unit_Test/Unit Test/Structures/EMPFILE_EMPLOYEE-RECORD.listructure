@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 19.1.2.v20180712-0806_18?>
+<!--Topaz for Total Test 19.1.2.v20180712-0806_18 Aug 21, 2018 4:52:37 PM-->
+<listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="Unit%20Test/Structures/EMPFILE_EMPLOYEE-RECORD.listructure">
+  <listructure:struct id="EMPLOYEE_RECORD" name="EMPLOYEE_RECORD">
+    <properties:properties>
+      <properties:property name="storageLength" type="number">198</properties:property>
+      <properties:property name="displayLength" type="number">198</properties:property>
+      <properties:property name="platform" type="string">mainframe</properties:property>
+    </properties:properties>
+    <listructure:string id="EMPLOYEE_RECORD.EMP_KEY" length="5" name="EMP_KEY">
+      <properties:properties>
+        <properties:property name="picture" type="string">X(5)</properties:property>
+        <properties:property name="storageLength" type="number">5</properties:property>
+        <properties:property name="displayLength" type="number">5</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(5)</properties:property>
+      </properties:properties>
+    </listructure:string>
+    <listructure:string id="EMPLOYEE_RECORD.EMP_STUFF" length="193" name="EMP_STUFF">
+      <properties:properties>
+        <properties:property name="picture" type="string">X(193)</properties:property>
+        <properties:property name="storageLength" type="number">193</properties:property>
+        <properties:property name="displayLength" type="number">193</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(193)</properties:property>
+      </properties:properties>
+    </listructure:string>
+  </listructure:struct>
+</listructure:listructure>

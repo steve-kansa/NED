@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" encoding="1047" id="Unit%20Test/Stubs/WBCI1206_EMPFILE_READ_01.stub" stubtype="VSAM KSDS (Organization: Index) READ" target="EMPFILE" token="20000">
-  <stub:description>Created: Aug 9, 2018 1:57:31 PM</stub:description>
+  <stub:description>Created: Aug 21, 2018 4:52:37 PM</stub:description>
   <stub:stubdata id="0" name="EMPFILE">
     <stub:interface>../Interfaces/WBCI1206_EMPFILE_EMPLOYEE_MASTER_FILE.interface#Unit%20Test/Interfaces/WBCI1206_EMPFILE_EMPLOYEE_MASTER_FILE.interface</stub:interface>
     <stub:output listructure="../Structures/WBCI1206_EMPFILE_EMPLOYEE-MASTER-FILE.listructure#Unit%20Test/Structures/WBCI1206_EMPFILE_EMPLOYEE-MASTER-FILE.listructure">

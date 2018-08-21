@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?totaltestVersion 19.2.1.v20180806-1309_669?>
-<!--Topaz for Total Test 19.2.1.v20180806-1309_669 Aug 9, 2018 1:57:38 PM-->
+<?totaltestVersion 19.1.2.v20180712-0806_18?>
+<!--Topaz for Total Test 19.1.2.v20180712-0806_18 Aug 21, 2018 4:52:51 PM-->
 <interface:interface xmlns:interface="http://www.compuware.com/model/xml/interface" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" alias="" id="Unit%20Test/Interfaces/WBCI1206_WBCI0040.interface">
   <interface:description></interface:description>
   <interface:argument listructure="../Structures/WBCI1206_WBCI0040_REPORT-RECORD.listructure#Unit%20Test/Structures/WBCI1206_WBCI0040_REPORT-RECORD.listructure">

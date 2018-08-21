@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 19.1.2.v20180712-0806_18?>
+<!--Topaz for Total Test 19.1.2.v20180712-0806_18 Aug 21, 2018 5:00:41 PM-->
+<testsuites>
+  <testsuite errors="0" failures="0" name="P94COMM2_Unit_Test.P4COMM.00001: WBCI1206Case1" tests="3">
+    <testcase classname="P94COMM2_Unit_Test.P4COMM.00001: WBCI1206Case1" name="00001: Check for PARM_LTH"/>
+    <testcase classname="P94COMM2_Unit_Test.P4COMM.00001: WBCI1206Case1" name="00002: Check for LOOP_FILL"/>
+    <testcase classname="P94COMM2_Unit_Test.P4COMM.00001: WBCI1206Case1" name="00003: Check for LOOP_CNT"/>
+  </testsuite>
+</testsuites>

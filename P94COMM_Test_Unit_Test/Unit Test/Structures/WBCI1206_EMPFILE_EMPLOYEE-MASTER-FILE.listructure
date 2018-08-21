@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?totaltestVersion 19.2.1.v20180806-1309_669?>
-<!--Topaz for Total Test 19.2.1.v20180806-1309_669 Aug 9, 2018 1:57:31 PM-->
+<?totaltestVersion 19.1.2.v20180712-0806_18?>
+<!--Topaz for Total Test 19.1.2.v20180712-0806_18 Aug 21, 2018 4:52:37 PM-->
 <listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="Unit%20Test/Structures/WBCI1206_EMPFILE_EMPLOYEE-MASTER-FILE.listructure">
   <listructure:struct id="EMPLOYEE_MASTER_FILE" name="EMPLOYEE_MASTER_FILE">
     <properties:properties>
