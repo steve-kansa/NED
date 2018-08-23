@@ -291,7 +291,7 @@ node{
                 }
             }
     }
-    stage("Push Tag to Test Repo")
+    stage("Promote Code and Tests to the CONS branch in Github")
     {
             // Now we need to add the files related to the ISPW set that was downloaded
             def Cobolfiles = findFiles(glob: 'SXK1/MF_Source/*.cbl')    // find all the Cobol files
@@ -299,18 +299,15 @@ node{
             
         dir("github")  // Need to work in the git repo's working tree
         {
-            echo "Workspace path  " + WORKSPACE
             Cobolfiles.each // Move each Cobol file to the git working tree
             {
                 echo "Starting Copy: " + it.path
                 bat "xcopy /s/e/Y ..\\" +  it.path + " " +"src"
-                echo "Finishing Copy: "
             }
             Copybooks.each // Move each Copybook file to the git working tree
             {
                 echo "Starting Copy: " + it.path
                 bat "xcopy /s/e/Y ..\\" +  it.path + " " +"src"
-                echo "Finishing Copy: "
             }
 
             // Prep to commit the changes into GitHub
@@ -348,75 +345,4 @@ node{
         }
         
     }
-    /*stage("Commit to git"){
-        
-        Git_URL = "https://github.com/steve-kansa/SXK1"
-
-        // Retrieve the Source currently in Git to a directory in the Jenkins workspace
-        gitcheckout(Git_URL, Git_Branch, Git_Credentials, "gitsource")
-
-        dir("gitsource")  // Need to work in the git repo's working tree
-        {
-            // Now we need to add the files related to the ISPW set that was downloaded
-            def Cobolfiles = findFiles(glob: 'SXK1/MF_Source/*.cbl')    // find all the Cobol files
-            def Copybooks  = findFiles(glob: 'SXK1/MF_Source/*.cpy')    // find all the copybooks
-
-            Cobolfiles.each // Move each Cobol file to the git working tree
-            {
-                bat "xcopy /s /Y " + it.path + " github\\MF_Source"
-            }
-            Copybooks.each // Move each Copybook file to the git working tree
-            {
-                bat "xcopy /s /Y " + it.path + " github\\MF_Source"
-            }
-
-            // Prep to commit the changes into GitHub
-            bat(script: "git add .")  // Add the files to the git Index
-
-            // Set username and to ISPW Set Owner so GitHub tracks who promoted change
-            Email = Owner + "@compuware.com"
-            bat(script: "git config --global user.name ${Owner} \r\ngit config --global user.email ${Email}") 
-
-            // Commit changed files to local git repo
-            message = "Changes for SetID " + SetId + " from User: " + Owner
-            stdstatus = bat(returnStatus: true, script: "git commit -m \"${message}")
-
-            // Check to see if git detected changes, if no changes are detected, nothing further to do in this step, exit stage
-            if(stdstatus > 0){      
-                currentBuild.result = 'SUCCESS' // Set build to Success
-                echo "Set Already added to Github" 
-                return
-            }
-
-            // Add a git tag for the ISPW SetId
-            bat(script: "git tag -a ${SetId} -m \"Changes for SetId")
-
-            // Push changes and tag to the Remote Github repository 
-            withCredentials([usernamePassword(credentialsId: 'stevekansagithub', passwordVariable: 'GIT_PASSWORD', usernameVariable: 'GIT_USERNAME')]) {
-                stdout = bat(returnStdout: true, script: "git push https://${GIT_USERNAME}:${GIT_PASSWORD}@github.com/steve-kansa/SXK1.git HEAD:master --tags")
-                echo "push" + stdout
-            }
-        }
-    }
-    /* 
-     This stage triggers a XL Release Pipeline that will move code into the high levels in the ISPW Lifecycle  
-     
-    stage("Start release in XL Release")
-    {
-            // Determine the current ISPW Path and Level that the code Promotion is from
-            PathNum = getPathNum(ISPW_Level)
-
-            // Use the Path Number to determine what QA Path to Promote the code from in ISPW.  This example has seperate QA paths in ISPW Lifecycle (i.e. DEV1->QA1->STG->PRD / DEV2->QA2->STG->PRD)
-            def XLRPath = "QA" + PathNum 
-
-            // Trigger XL Release Jenkins Plugin to kickoff a Release
-            xlrCreateRelease releaseTitle: 'A Release for $BUILD_TAG',
-            serverCredentials: "${XLR_User}",
-            startRelease: true,
-            template: "${XLR_Template}"
-            variables:
-            [[propertyName:'ISPW_Dev_level', propertyValue: "${ISPW_Target_Level}"], // Level in ISPW that the Code resides currently
-            [propertyName: 'ISPW_RELEASE_ID', propertyValue: "${ISPW_Release}"],     // ISPW Release value from the ISPW Webhook
-            [propertyName: 'CES_Token', propertyValue: "${CES_Token}"]]
-    }*/
 }
