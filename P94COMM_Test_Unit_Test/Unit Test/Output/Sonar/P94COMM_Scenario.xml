@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?totaltestVersion 19.1.1.v20180612-1335_7?>
-<!--Topaz for Total Test 19.1.1.v20180612-1335_7 Aug 23, 2018 4:36:30 PM-->
+<!--Topaz for Total Test 19.1.1.v20180612-1335_7 Aug 23, 2018 5:00:59 PM-->
 <testExecutions version="1">
-  <file path="C:\Users\pfhsxk0\.jenkins\workspace\SXK1_Tester\github\P94COMM_Test_Unit_Test\Unit Test\Scenarios\P94COMM_Scenario.testscenario">
+  <file path="C:\Users\pfhsxk0\.jenkins\workspace\SXK1_NED\github\P94COMM_Test_Unit_Test\Unit Test\Scenarios\P94COMM_Scenario.testscenario">
     <testCase duration="0" name="P94COMM_Test_Unit_Test.P94COMM_Scenario.00001: P94COMMCase1.00001: Check for PARM_LTH"/>
     <testCase duration="0" name="P94COMM_Test_Unit_Test.P94COMM_Scenario.00001: P94COMMCase1.00002: Check for LOOP_FILL"/>
     <testCase duration="0" name="P94COMM_Test_Unit_Test.P94COMM_Scenario.00001: P94COMMCase1.00003: Check for LOOP_CNT"/>
